@@ -7,6 +7,7 @@
 import Database from 'better-sqlite3';
 import path from 'path';
 import crypto from 'crypto';
+import fs from 'fs';
 import { logger } from './logger.js';
 
 export interface KnowledgeEntry {
@@ -20,8 +21,8 @@ export interface KnowledgeEntry {
   correctCount: number;           // 正确次数
   confidence: number;             // 置信度 0-1
   tags: string[];                 // 标签/分类
-  createdAt: number;              // 创建时间戳
-  lastUpdated: number;            // 最后更新时间戳
+  createdAt?: number;             // 创建时间戳
+  lastUpdated?: number;           // 最后更新时间戳
   metadata?: {
     source?: string;              // 答案来源（LLM/网页/用户输入）
     modelUsed?: string;            // 使用的LLM模型
@@ -35,7 +36,7 @@ export interface SimilarQuestionResult {
 }
 
 class KnowledgeBase {
-  private db: Database.Database;
+  private db: Database;
   private dbPath: string;
 
   constructor(dbPath?: string) {
@@ -43,13 +44,12 @@ class KnowledgeBase {
     
     // 确保目录存在
     const dir = path.dirname(this.dbPath);
-    const fs = require('fs');
     if (!fs.existsSync(dir)) {
       fs.mkdirSync(dir, { recursive: true });
     }
 
     try {
-      this.db = new (Database as any).default(this.dbPath);
+      this.db = new Database(this.dbPath);
       this.db.pragma('journal_mode = WAL');  // 性能优化
       this.initializeTables();
       logger.info(`知识库已初始化: ${this.dbPath}`);
@@ -177,7 +177,7 @@ class KnowledgeBase {
 
         return {
           ...entry,
-          id: this.db.prepare('SELECT last_insert_rowid() as id').get().id as number,
+          id: (this.db.prepare('SELECT last_insert_rowid() as id').get() as { id: number }).id,
           questionHash: hash,
           createdAt: now,
           lastUpdated: now

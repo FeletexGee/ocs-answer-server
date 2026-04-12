@@ -5,7 +5,7 @@
 
 import { LearningLoopManager } from './learning-loop.js';
 import { logger } from './logger.js';
-import type { QuestionWithAnswer } from './ocs-automation.js';
+import type { QuestionWithAnswer } from './ocsAutomation.js';
 
 /**
  * 示例1：基本使用流程

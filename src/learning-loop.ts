@@ -4,9 +4,9 @@
  */
 
 import { logger } from './logger.js';
-import { OCSAutomationController } from './ocs-automation.js';
+import { OCSAutomationController } from './ocsAutomation.js';
 import { knowledgeBase } from './knowledge-base.js';
-import type { QuestionWithAnswer, AnswerVerificationResult } from './ocs-automation.js';
+import type { QuestionWithAnswer, AnswerVerificationResult } from './ocsAutomation.js';
 
 export interface LearningStats {
   totalQuestions: number;

@@ -10,12 +10,40 @@ import { loadConfig, getConfig } from './config.js';
 import { logger } from './logger.js';
 import { processAnswerRequest, type AnswerRequest, generateHandlerCode } from './answer.js';
 
+interface QuestionWithAnswer {
+  title: string;
+  ourAnswer: string;
+  type?: string;
+  options?: string;
+}
+
+interface LearningLoopManagerInstance {
+  startSession(headless?: boolean): Promise<void>;
+  processQuestion(question: QuestionWithAnswer): Promise<AutomationProcessResult>;
+  getStats(): unknown;
+  endSession(): Promise<void>;
+}
+
+interface AutomationProcessResult {
+  success: boolean;
+  verification?: unknown;
+  stored?: boolean;
+}
+
 // 加载配置
 loadConfig();
 const config = getConfig();
 
 // 创建Express应用
 const app = express();
+let learningLoopManager: LearningLoopManagerInstance | null = null;
+
+function getAutomationBaseUrl(req: Request): string {
+  const input = req.body as { ocsUrl?: unknown } | undefined;
+  const fromBody = typeof input?.ocsUrl === 'string' ? input.ocsUrl.trim() : '';
+  const fromEnv = process.env.OCS_AUTOMATION_URL?.trim() || '';
+  return fromBody || fromEnv || `${req.protocol}://${req.get('host')}`;
+}
 
 // 中间件
 app.use(cors());
@@ -120,6 +148,116 @@ app.get('/api/ocs-config', (req: Request, res: Response) => {
   };
 
   res.json(ocsConfig);
+});
+
+/**
+ * 启动UI自动化学习会话
+ */
+app.post('/api/automation/start', async (req: Request, res: Response) => {
+  try {
+    const targetUrl = getAutomationBaseUrl(req);
+    const headlessRaw = (req.body as { headless?: unknown })?.headless;
+    const headless = typeof headlessRaw === 'boolean' ? headlessRaw : true;
+
+    if (!learningLoopManager) {
+      const { LearningLoopManager } = await import('./learning-loop.js');
+      learningLoopManager = new LearningLoopManager(targetUrl);
+      await learningLoopManager.startSession(headless);
+      logger.info('UI自动化学习会话已启动', { targetUrl, headless });
+    }
+
+    res.json({
+      code: 1,
+      msg: '自动化会话已启动',
+      data: {
+        active: true,
+        targetUrl,
+        headless,
+      },
+    });
+  } catch (error) {
+    const errorMessage = error instanceof Error ? error.message : '未知错误';
+    logger.error('启动自动化会话失败', { error: errorMessage });
+    res.status(500).json({ code: 0, msg: `启动失败: ${errorMessage}` });
+  }
+});
+
+/**
+ * 提交题目到UI自动化验证并记忆
+ */
+app.post('/api/automation/verify', async (req: Request, res: Response) => {
+  try {
+    if (!learningLoopManager) {
+      res.status(400).json({ code: 0, msg: '自动化会话未启动，请先调用 /api/automation/start' });
+      return;
+    }
+
+    const body = req.body as QuestionWithAnswer;
+    if (!body?.title || !body?.ourAnswer) {
+      res.status(400).json({ code: 0, msg: '参数缺失：title 和 ourAnswer 为必填' });
+      return;
+    }
+
+    const result = await learningLoopManager.processQuestion({
+      title: body.title,
+      ourAnswer: body.ourAnswer,
+      type: body.type,
+      options: body.options,
+    });
+
+    if (!result.success) {
+      res.status(500).json({ code: 0, msg: '验证失败，请查看服务端日志' });
+      return;
+    }
+
+    res.json({
+      code: 1,
+      msg: '验证完成',
+      data: result,
+    });
+  } catch (error) {
+    const errorMessage = error instanceof Error ? error.message : '未知错误';
+    logger.error('自动化验证失败', { error: errorMessage });
+    res.status(500).json({ code: 0, msg: `验证失败: ${errorMessage}` });
+  }
+});
+
+/**
+ * 获取自动化学习统计
+ */
+app.get('/api/automation/stats', (_req: Request, res: Response) => {
+  if (!learningLoopManager) {
+    res.json({
+      code: 1,
+      data: {
+        active: false,
+        stats: null,
+      },
+    });
+    return;
+  }
+
+  res.json({
+    code: 1,
+    data: {
+      active: true,
+      stats: learningLoopManager.getStats(),
+    },
+  });
+});
+
+/**
+ * 结束自动化学习会话
+ */
+app.post('/api/automation/stop', async (_req: Request, res: Response) => {
+  if (!learningLoopManager) {
+    res.json({ code: 1, msg: '自动化会话未启动' });
+    return;
+  }
+
+  await learningLoopManager.endSession();
+  learningLoopManager = null;
+  res.json({ code: 1, msg: '自动化会话已结束' });
 });
 
 function parseJsonIfNeeded(value: unknown): unknown {

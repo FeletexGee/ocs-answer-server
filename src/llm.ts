@@ -173,6 +173,13 @@ async function callOpenRouterAPI(
     if (axiosError.response) {
       const status = axiosError.response.status;
       const errorData = axiosError.response.data;
+      const message =
+        typeof errorData === 'object' &&
+        errorData !== null &&
+        'error' in errorData &&
+        typeof (errorData as { error?: { message?: unknown } }).error?.message === 'string'
+          ? (errorData as { error: { message: string } }).error.message
+          : undefined;
       
       // OpenRouter特定错误处理
       if (status === 401 || status === 403) {
@@ -181,8 +188,8 @@ async function callOpenRouterAPI(
       if (status === 429) {
         return { success: false, error: 'OpenRouter API请求频率超限或余额不足', rawError: errorData };
       }
-      if (status === 400 && errorData?.error?.message) {
-        return { success: false, error: `OpenRouter错误: ${errorData.error.message}`, rawError: errorData };
+      if (status === 400 && message) {
+        return { success: false, error: `OpenRouter错误: ${message}`, rawError: errorData };
       }
       return { success: false, error: `OpenRouter API错误: ${status}`, rawError: errorData };
     }
