@@ -1,0 +1,3 @@
+2026-04-12 23:36:10 [ERROR] 答案生成失败: 网络错误: Client network socket disconnected before secure TLS connection was established
+2026-04-12 23:53:52 [ERROR] 答案生成失败: OpenRouter错误: google/gemini-3.1-pro is not a valid model ID
+2026-04-12 23:53:57 [ERROR] 答案生成失败: OpenRouter错误: google/gemini-3.1-pro is not a valid model ID

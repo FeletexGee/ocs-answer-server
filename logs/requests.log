@@ -1,0 +1,831 @@
+2026-04-12 21:31:54 [INFO] 
+╔════════════════════════════════════════════════════════════╗
+║            OCS 答案服务器已启动                              ║
+╠════════════════════════════════════════════════════════════╣
+║  服务地址: http://127.0.0.1:3000                             ║
+║  API文档:  GET  /info                                        ║
+║  答案接口:  POST /api/answer                                 ║
+║  OCS配置:   GET  /api/ocs-config                             ║
+║  健康检查:  GET  /health                                      ║
+╠════════════════════════════════════════════════════════════╣
+║  LLM配置:   openrouter                                           ║
+║  模型:      anthropic/claude-opus-4.6                            ║
+╚════════════════════════════════════════════════════════════╝
+    
+2026-04-12 21:37:00 [INFO] API请求: 题目="undefined..." 类型=未知
+2026-04-12 21:37:00 [WARN] 收到无效请求：缺少title参数
+2026-04-12 21:37:07 [INFO] API请求: 题目="undefined..." 类型=未知
+2026-04-12 21:37:07 [WARN] 收到无效请求：缺少title参数
+2026-04-12 21:37:13 [INFO] API请求: 题目="undefined..." 类型=未知
+2026-04-12 21:37:13 [WARN] 收到无效请求：缺少title参数
+2026-04-12 21:37:21 [INFO] API请求: 题目="undefined..." 类型=未知
+2026-04-12 21:37:21 [WARN] 收到无效请求：缺少title参数
+2026-04-12 21:37:28 [INFO] API请求: 题目="undefined..." 类型=未知
+2026-04-12 21:37:28 [WARN] 收到无效请求：缺少title参数
+2026-04-12 21:37:35 [INFO] API请求: 题目="undefined..." 类型=未知
+2026-04-12 21:37:35 [WARN] 收到无效请求：缺少title参数
+2026-04-12 21:45:19 [INFO] API请求: 题目="undefined..." 类型=未知
+2026-04-12 21:45:19 [WARN] 收到无效请求：缺少title参数
+2026-04-12 21:45:26 [INFO] API请求: 题目="undefined..." 类型=未知
+2026-04-12 21:45:26 [WARN] 收到无效请求：缺少title参数
+2026-04-12 21:45:33 [INFO] API请求: 题目="undefined..." 类型=未知
+2026-04-12 21:45:33 [WARN] 收到无效请求：缺少title参数
+2026-04-12 21:45:41 [INFO] API请求: 题目="undefined..." 类型=未知
+2026-04-12 21:45:41 [WARN] 收到无效请求：缺少title参数
+2026-04-12 21:45:48 [INFO] API请求: 题目="undefined..." 类型=未知
+2026-04-12 21:45:48 [WARN] 收到无效请求：缺少title参数
+2026-04-12 21:45:55 [INFO] API请求: 题目="undefined..." 类型=未知
+2026-04-12 21:45:55 [WARN] 收到无效请求：缺少title参数
+2026-04-12 21:46:02 [INFO] API请求: 题目="undefined..." 类型=未知
+2026-04-12 21:46:02 [WARN] 收到无效请求：缺少title参数
+2026-04-12 21:46:08 [INFO] API请求: 题目="undefined..." 类型=未知
+2026-04-12 21:46:08 [WARN] 收到无效请求：缺少title参数
+2026-04-12 21:47:21 [INFO] 收到SIGINT信号，正在关闭服务器...
+2026-04-12 21:47:24 [INFO] 
+╔════════════════════════════════════════════════════════════╗
+║            OCS 答案服务器已启动                              ║
+╠════════════════════════════════════════════════════════════╣
+║  服务地址: http://127.0.0.1:3000                             ║
+║  API文档:  GET  /info                                        ║
+║  答案接口:  POST /api/answer                                 ║
+║  OCS配置:   GET  /api/ocs-config                             ║
+║  健康检查:  GET  /health                                      ║
+╠════════════════════════════════════════════════════════════╣
+║  LLM配置:   openrouter                                           ║
+║  模型:      anthropic/claude-opus-4.6                            ║
+╚════════════════════════════════════════════════════════════╝
+    
+2026-04-12 21:47:51 [INFO] API请求: 题目="undefined..." 类型=未知
+2026-04-12 21:47:51 [WARN] 收到无效请求：缺少title参数
+2026-04-12 21:47:58 [INFO] API请求: 题目="undefined..." 类型=未知
+2026-04-12 21:47:58 [WARN] 收到无效请求：缺少title参数
+2026-04-12 21:48:06 [INFO] API请求: 题目="undefined..." 类型=未知
+2026-04-12 21:48:06 [WARN] 收到无效请求：缺少title参数
+2026-04-12 21:48:12 [INFO] API请求: 题目="undefined..." 类型=未知
+2026-04-12 21:48:12 [WARN] 收到无效请求：缺少title参数
+2026-04-12 21:48:20 [INFO] API请求: 题目="undefined..." 类型=未知
+2026-04-12 21:48:20 [WARN] 收到无效请求：缺少title参数
+2026-04-12 21:48:26 [INFO] API请求: 题目="undefined..." 类型=未知
+2026-04-12 21:48:26 [WARN] 收到无效请求：缺少title参数
+2026-04-12 21:54:18 [INFO] 收到SIGINT信号，正在关闭服务器...
+2026-04-12 21:54:21 [INFO] 
+╔════════════════════════════════════════════════════════════╗
+║            OCS 答案服务器已启动                              ║
+╠════════════════════════════════════════════════════════════╣
+║  服务地址: http://127.0.0.1:3000                             ║
+║  API文档:  GET  /info                                        ║
+║  答案接口:  POST /api/answer                                 ║
+║  OCS配置:   GET  /api/ocs-config                             ║
+║  健康检查:  GET  /health                                      ║
+╠════════════════════════════════════════════════════════════╣
+║  LLM配置:   openrouter                                           ║
+║  模型:      anthropic/claude-opus-4.6                            ║
+╚════════════════════════════════════════════════════════════╝
+    
+2026-04-12 21:54:42 [INFO] API请求: 题目="undefined..." 类型=未知
+2026-04-12 21:54:42 [WARN] 收到无效请求：缺少title参数
+2026-04-12 21:54:48 [INFO] API请求: 题目="undefined..." 类型=未知
+2026-04-12 21:54:48 [WARN] 收到无效请求：缺少title参数
+2026-04-12 21:54:57 [INFO] API请求: 题目="undefined..." 类型=未知
+2026-04-12 21:54:57 [WARN] 收到无效请求：缺少title参数
+2026-04-12 21:55:05 [INFO] API请求: 题目="undefined..." 类型=未知
+2026-04-12 21:55:05 [WARN] 收到无效请求：缺少title参数
+2026-04-12 21:55:12 [INFO] API请求: 题目="undefined..." 类型=未知
+2026-04-12 21:55:12 [WARN] 收到无效请求：缺少title参数
+2026-04-12 21:55:19 [INFO] API请求: 题目="undefined..." 类型=未知
+2026-04-12 21:55:19 [WARN] 收到无效请求：缺少title参数
+2026-04-12 22:00:32 [INFO] 收到SIGINT信号，正在关闭服务器...
+2026-04-12 22:01:53 [INFO] 
+╔════════════════════════════════════════════════════════════╗
+║            OCS 答案服务器已启动                              ║
+╠════════════════════════════════════════════════════════════╣
+║  服务地址: http://127.0.0.1:3000                             ║
+║  API文档:  GET  /info                                        ║
+║  答案接口:  POST /api/answer                                 ║
+║  OCS配置:   GET  /api/ocs-config                             ║
+║  健康检查:  GET  /health                                      ║
+╠════════════════════════════════════════════════════════════╣
+║  LLM配置:   openrouter                                           ║
+║  模型:      claude-opus-4.6                                      ║
+╚════════════════════════════════════════════════════════════╝
+    
+2026-04-12 22:15:10 [INFO] 收到SIGINT信号，正在关闭服务器...
+2026-04-12 22:15:40 [INFO] 
+╔════════════════════════════════════════════════════════════╗
+║            OCS 答案服务器已启动                              ║
+╠════════════════════════════════════════════════════════════╣
+║  服务地址: http://127.0.0.1:3000                             ║
+║  API文档:  GET  /info                                        ║
+║  答案接口:  POST /api/answer                                 ║
+║  OCS配置:   GET  /api/ocs-config                             ║
+║  健康检查:  GET  /health                                      ║
+╠════════════════════════════════════════════════════════════╣
+║  LLM配置:   openrouter                                           ║
+║  模型:      claude-opus-4.6                                      ║
+╚════════════════════════════════════════════════════════════╝
+    
+2026-04-12 22:16:17 [INFO] API请求: 题目="..." 类型=未知 {"title":"","body":{},"query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:16:17 [WARN] 收到无效请求：缺少title参数
+2026-04-12 22:16:23 [INFO] API请求: 题目="..." 类型=未知 {"title":"","body":{},"query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:16:23 [WARN] 收到无效请求：缺少title参数
+2026-04-12 22:16:30 [INFO] API请求: 题目="..." 类型=未知 {"title":"","body":{},"query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:16:30 [WARN] 收到无效请求：缺少title参数
+2026-04-12 22:16:36 [INFO] API请求: 题目="..." 类型=未知 {"title":"","body":{},"query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:16:36 [WARN] 收到无效请求：缺少title参数
+2026-04-12 22:16:43 [INFO] API请求: 题目="..." 类型=未知 {"title":"","body":{},"query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:16:43 [WARN] 收到无效请求：缺少title参数
+2026-04-12 22:16:49 [INFO] API请求: 题目="..." 类型=未知 {"title":"","body":{},"query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:16:49 [WARN] 收到无效请求：缺少title参数
+2026-04-12 22:19:00 [INFO] 收到SIGINT信号，正在关闭服务器...
+2026-04-12 22:20:03 [INFO] 
+╔════════════════════════════════════════════════════════════╗
+║            OCS 答案服务器已启动                              ║
+╠════════════════════════════════════════════════════════════╣
+║  服务地址: http://127.0.0.1:3000                             ║
+║  API文档:  GET  /info                                        ║
+║  答案接口:  POST /api/answer                                 ║
+║  OCS配置:   GET  /api/ocs-config                             ║
+║  健康检查:  GET  /health                                      ║
+╠════════════════════════════════════════════════════════════╣
+║  LLM配置:   openrouter                                           ║
+║  模型:      claude-opus-4.6                                      ║
+╚════════════════════════════════════════════════════════════╝
+    
+2026-04-12 22:20:26 [INFO] API请求: 题目="..." 类型=未知 {"title":"","body":{},"query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:20:26 [WARN] 收到无效请求：缺少title参数
+2026-04-12 22:20:33 [INFO] API请求: 题目="..." 类型=未知 {"title":"","body":{},"query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:20:33 [WARN] 收到无效请求：缺少title参数
+2026-04-12 22:20:40 [INFO] API请求: 题目="..." 类型=未知 {"title":"","body":{},"query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:20:40 [WARN] 收到无效请求：缺少title参数
+2026-04-12 22:20:46 [INFO] API请求: 题目="..." 类型=未知 {"title":"","body":{},"query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:20:46 [WARN] 收到无效请求：缺少title参数
+2026-04-12 22:20:53 [INFO] API请求: 题目="..." 类型=未知 {"title":"","body":{},"query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:20:53 [WARN] 收到无效请求：缺少title参数
+2026-04-12 22:20:59 [INFO] API请求: 题目="..." 类型=未知 {"title":"","body":{},"query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:20:59 [WARN] 收到无效请求：缺少title参数
+2026-04-12 22:21:23 [INFO] 收到SIGINT信号，正在关闭服务器...
+2026-04-12 22:22:31 [INFO] 
+╔════════════════════════════════════════════════════════════╗
+║            OCS 答案服务器已启动                              ║
+╠════════════════════════════════════════════════════════════╣
+║  服务地址: http://127.0.0.1:3000                             ║
+║  API文档:  GET  /info                                        ║
+║  答案接口:  POST /api/answer                                 ║
+║  OCS配置:   GET  /api/ocs-config                             ║
+║  健康检查:  GET  /health                                      ║
+╠════════════════════════════════════════════════════════════╣
+║  LLM配置:   openrouter                                           ║
+║  模型:      anthropic/claude-opus-4.6                            ║
+╚════════════════════════════════════════════════════════════╝
+    
+2026-04-12 22:24:54 [INFO] API请求: 题目="..." 类型=未知 {"title":"","body":{},"query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:24:54 [WARN] 收到无效请求：缺少title参数
+2026-04-12 22:25:01 [INFO] API请求: 题目="..." 类型=未知 {"title":"","body":{},"query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:25:01 [WARN] 收到无效请求：缺少title参数
+2026-04-12 22:25:08 [INFO] API请求: 题目="..." 类型=未知 {"title":"","body":{},"query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:25:08 [WARN] 收到无效请求：缺少title参数
+2026-04-12 22:25:14 [INFO] API请求: 题目="..." 类型=未知 {"title":"","body":{},"query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:25:14 [WARN] 收到无效请求：缺少title参数
+2026-04-12 22:25:21 [INFO] API请求: 题目="..." 类型=未知 {"title":"","body":{},"query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:25:21 [WARN] 收到无效请求：缺少title参数
+2026-04-12 22:25:28 [INFO] API请求: 题目="..." 类型=未知 {"title":"","body":{},"query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:25:28 [WARN] 收到无效请求：缺少title参数
+2026-04-12 22:27:32 [INFO] API请求: 题目="..." 类型=未知 {"title":"","body":{},"query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:27:32 [WARN] 收到无效请求：缺少title参数
+2026-04-12 22:27:39 [INFO] API请求: 题目="..." 类型=未知 {"title":"","body":{},"query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:27:39 [WARN] 收到无效请求：缺少title参数
+2026-04-12 22:27:46 [INFO] API请求: 题目="..." 类型=未知 {"title":"","body":{},"query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:27:46 [WARN] 收到无效请求：缺少title参数
+2026-04-12 22:27:52 [INFO] API请求: 题目="..." 类型=未知 {"title":"","body":{},"query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:27:52 [WARN] 收到无效请求：缺少title参数
+2026-04-12 22:27:59 [INFO] API请求: 题目="..." 类型=未知 {"title":"","body":{},"query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:27:59 [WARN] 收到无效请求：缺少title参数
+2026-04-12 22:28:05 [INFO] API请求: 题目="..." 类型=未知 {"title":"","body":{},"query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:28:05 [WARN] 收到无效请求：缺少title参数
+2026-04-12 22:30:40 [INFO] 收到SIGINT信号，正在关闭服务器...
+2026-04-12 22:32:04 [INFO] 
+╔════════════════════════════════════════════════════════════╗
+║            OCS 答案服务器已启动                              ║
+╠════════════════════════════════════════════════════════════╣
+║  服务地址: http://127.0.0.1:3000                             ║
+║  API文档:  GET  /info                                        ║
+║  答案接口:  POST /api/answer                                 ║
+║  OCS配置:   GET  /api/ocs-config                             ║
+║  健康检查:  GET  /health                                      ║
+╠════════════════════════════════════════════════════════════╣
+║  LLM配置:   openrouter                                           ║
+║  模型:      anthropic/claude-opus-4.6                            ║
+╚════════════════════════════════════════════════════════════╝
+    
+2026-04-12 22:32:42 [INFO] API请求: 题目="原子吸收分析中，若样品浓度超出标准曲线线性范围，可将样品适当稀释后重新测定。..." 类型=judgement {"title":"原子吸收分析中，若样品浓度超出标准曲线线性范围，可将样品适当稀释后重新测定。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"原子吸收分析中，若样品浓度超出标准曲线线性范围，可将样品适当稀释后重新测定。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"原子吸收分析中，若样品浓度超出标准曲线线性范围，可将样品适当稀释后重新测定。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:32:42 [INFO] 收到题目请求: 原子吸收分析中，若样品浓度超出标准曲线线性范围，可将样品适当稀释后重新测定。... {"type":"judgement","hasOptions":true}
+2026-04-12 22:32:45 [INFO] 题目请求处理成功 {"title":"原子吸收分析中，若样品浓度超出标准曲线线性范围，可将样品适当稀释后重新测定。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"2624ms","status":"success"}
+2026-04-12 22:32:45 [INFO] 答案生成成功 (2624ms): A. 对...
+2026-04-12 22:32:52 [INFO] API请求: 题目="在启动原子吸收光谱仪之前，必须先打开排风系统并确保通风良好。..." 类型=judgement {"title":"在启动原子吸收光谱仪之前，必须先打开排风系统并确保通风良好。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"在启动原子吸收光谱仪之前，必须先打开排风系统并确保通风良好。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"在启动原子吸收光谱仪之前，必须先打开排风系统并确保通风良好。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:32:52 [INFO] 收到题目请求: 在启动原子吸收光谱仪之前，必须先打开排风系统并确保通风良好。... {"type":"judgement","hasOptions":true}
+2026-04-12 22:32:55 [INFO] 题目请求处理成功 {"title":"在启动原子吸收光谱仪之前，必须先打开排风系统并确保通风良好。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"2814ms","status":"success"}
+2026-04-12 22:32:55 [INFO] 答案生成成功 (2814ms): A. 对...
+2026-04-12 22:33:03 [INFO] API请求: 题目="原子吸收分析中，标准加入法只需在样品中加入一次标准溶液即可完成测定。..." 类型=judgement {"title":"原子吸收分析中，标准加入法只需在样品中加入一次标准溶液即可完成测定。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"原子吸收分析中，标准加入法只需在样品中加入一次标准溶液即可完成测定。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"原子吸收分析中，标准加入法只需在样品中加入一次标准溶液即可完成测定。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:33:03 [INFO] 收到题目请求: 原子吸收分析中，标准加入法只需在样品中加入一次标准溶液即可完成测定。... {"type":"judgement","hasOptions":true}
+2026-04-12 22:33:05 [INFO] 题目请求处理成功 {"title":"原子吸收分析中，标准加入法只需在样品中加入一次标准溶液即可完成测定。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"2132ms","status":"success"}
+2026-04-12 22:33:05 [INFO] 答案生成成功 (2132ms): B. 错...
+2026-04-12 22:33:12 [INFO] API请求: 题目="在原子吸收分析中，样品溶液应尽量使用去离子水配制，以避免杂质离子引入干扰。..." 类型=judgement {"title":"在原子吸收分析中，样品溶液应尽量使用去离子水配制，以避免杂质离子引入干扰。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\" 在原子吸收分析中，样品溶液应尽量使用去离子水配制，以避免杂质离子引入干扰。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\" 在原子吸收分析中，样品溶液应尽量使用去离子水配制，以避免杂质离子引入干扰。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:33:12 [INFO] 收到题目请求: 在原子吸收分析中，样品溶液应尽量使用去离子水配制，以避免杂质离子引入干扰。... {"type":"judgement","hasOptions":true}
+2026-04-12 22:33:15 [INFO] 题目请求处理成功 {"title":"在原子吸收分析中，样品溶液应尽量使用去离子水配制，以避免杂质离子引入干扰。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"2737ms","status":"success"}
+2026-04-12 22:33:15 [INFO] 答案生成成功 (2737ms): A. 对...
+2026-04-12 22:33:23 [INFO] API请求: 题目="火焰原子吸收分析中，所有元素的测定都应使用相同的燃烧器高度。..." 类型=judgement {"title":"火焰原子吸收分析中，所有元素的测定都应使用相同的燃烧器高度。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"火焰原子吸收分析中，所有元素的测定都应使用相同的燃烧器高度。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"火焰原子吸收分析中，所有元素的测定都应使用相同的燃烧器高度。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:33:23 [INFO] 收到题目请求: 火焰原子吸收分析中，所有元素的测定都应使用相同的燃烧器高度。... {"type":"judgement","hasOptions":true}
+2026-04-12 22:33:26 [INFO] 题目请求处理成功 {"title":"火焰原子吸收分析中，所有元素的测定都应使用相同的燃烧器高度。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"3466ms","status":"success"}
+2026-04-12 22:33:26 [INFO] 答案生成成功 (3466ms): B. 错...
+2026-04-12 22:33:34 [INFO] API请求: 题目="原子吸收光谱仪中，若检测器响应信号不稳定、噪声大，应首先检查（ ）。..." 类型=single {"title":"原子吸收光谱仪中，若检测器响应信号不稳定、噪声大，应首先检查（ ）。","type":"single","options":"A.\n空心阴极灯是否老化\nB.\n光路是否对准\nC.\n雾化器是否堵塞\nD.\n气源压力是否稳定","body":"{\"title\":\"原子吸收光谱仪中，若检测器响应信号不稳定、噪声大，应首先检查（ ）。\",\"type\":\"single\",\"options\":\"A.\\n空心阴极灯是否老化\\nB.\\n光路是否对准\\nC.\\n雾化器是否堵塞\\nD.\\n气源压力是否稳定\"}","rawTextBody":"{\"title\":\"原子吸收光谱仪中，若检测器响应信号不稳定、噪声大，应首先检查（ ）。\",\"type\":\"single\",\"options\":\"A.\\n空心阴极灯是否老化\\nB.\\n光路是否对准\\nC.\\n雾化器是否堵塞\\nD.\\n气源压力是否稳定\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:33:34 [INFO] 收到题目请求: 原子吸收光谱仪中，若检测器响应信号不稳定、噪声大，应首先检查（ ）。... {"type":"single","hasOptions":true}
+2026-04-12 22:33:37 [INFO] 题目请求处理成功 {"title":"原子吸收光谱仪中，若检测器响应信号不稳定、噪声大，应首先检查（ ）。","type":"single","hasOptions":true,"answerLength":1,"duration":"3541ms","status":"success"}
+2026-04-12 22:33:37 [INFO] 答案生成成功 (3541ms): A...
+2026-04-12 22:35:06 [INFO] API请求: 题目="在火焰原子吸收中，为减少光散射干扰，应优先采取的措施是（ ）。..." 类型=single {"title":"在火焰原子吸收中，为减少光散射干扰，应优先采取的措施是（ ）。","type":"single","options":"A.\n使用氘灯校正\nB.\n提高燃烧器高度\nC.\n样品过滤或离心\nD.\n选用更窄的狭缝宽度","body":"{\"title\":\"在火焰原子吸收中，为减少光散射干扰，应优先采取的措施是（ ）。\",\"type\":\"single\",\"options\":\"A.\\n使用氘灯校正\\nB.\\n提高燃烧器高度\\nC.\\n样品过滤或离心\\nD.\\n选用更窄的狭缝宽度\"}","rawTextBody":"{\"title\":\"在火焰原子吸收中，为减少光散射干扰，应优先采取的措施是（ ）。\",\"type\":\"single\",\"options\":\"A.\\n使用氘灯校正\\nB.\\n提高燃烧器高度\\nC.\\n样品过滤或离心\\nD.\\n选用更窄的狭缝宽度\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:35:06 [INFO] 收到题目请求: 在火焰原子吸收中，为减少光散射干扰，应优先采取的措施是（ ）。... {"type":"single","hasOptions":true}
+2026-04-12 22:35:09 [INFO] 题目请求处理成功 {"title":"在火焰原子吸收中，为减少光散射干扰，应优先采取的措施是（ ）。","type":"single","hasOptions":true,"answerLength":1,"duration":"2498ms","status":"success"}
+2026-04-12 22:35:09 [INFO] 答案生成成功 (2498ms): C...
+2026-04-12 22:35:16 [INFO] API请求: 题目="原子吸收光谱法测定痕量元素时，实验所用玻璃器皿需用稀酸浸泡并冲洗干净，以防污染..." 类型=judgement {"title":"原子吸收光谱法测定痕量元素时，实验所用玻璃器皿需用稀酸浸泡并冲洗干净，以防污染","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"原子吸收光谱法测定痕量元素时，实验所用玻璃器皿需用稀酸浸泡并冲洗干净，以防污染\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"原子吸收光谱法测定痕量元素时，实验所用玻璃器皿需用稀酸浸泡并冲洗干净，以防污染\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:35:16 [INFO] 收到题目请求: 原子吸收光谱法测定痕量元素时，实验所用玻璃器皿需用稀酸浸泡并冲洗干净，以防污染... {"type":"judgement","hasOptions":true}
+2026-04-12 22:35:18 [INFO] 题目请求处理成功 {"title":"原子吸收光谱法测定痕量元素时，实验所用玻璃器皿需用稀酸浸泡并冲洗干净，以防污染","type":"judgement","hasOptions":true,"answerLength":4,"duration":"2481ms","status":"success"}
+2026-04-12 22:35:18 [INFO] 答案生成成功 (2481ms): A. 对...
+2026-04-12 22:35:26 [INFO] API请求: 题目="使用石墨炉原子吸收法测定血铅时，为减少基体干扰，通常采用的样品前处理方法是（ ）。..." 类型=single {"title":"使用石墨炉原子吸收法测定血铅时，为减少基体干扰，通常采用的样品前处理方法是（ ）。","type":"single","options":"A.\n直接稀释后进样\nB.\n酸消解后稀释\nC.\n萃取富集后进样\nD.\n微波消解后稀释","body":"{\"title\":\"使用石墨炉原子吸收法测定血铅时，为减少基体干扰，通常采用的样品前处理方法是（ ）。\",\"type\":\"single\",\"options\":\"A.\\n直接稀释后进样\\nB.\\n酸消解后稀释\\nC.\\n萃取富集后进样\\nD.\\n微波消解后稀释\"}","rawTextBody":"{\"title\":\"使用石墨炉原子吸收法测定血铅时，为减少基体干扰，通常采用的样品前处理方法是（ ）。\",\"type\":\"single\",\"options\":\"A.\\n直接稀释后进样\\nB.\\n酸消解后稀释\\nC.\\n萃取富集后进样\\nD.\\n微波消解后稀释\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:35:26 [INFO] 收到题目请求: 使用石墨炉原子吸收法测定血铅时，为减少基体干扰，通常采用的样品前处理方法是（ ）。... {"type":"single","hasOptions":true}
+2026-04-12 22:35:29 [INFO] 题目请求处理成功 {"title":"使用石墨炉原子吸收法测定血铅时，为减少基体干扰，通常采用的样品前处理方法是（ ）。","type":"single","hasOptions":true,"answerLength":1,"duration":"2853ms","status":"success"}
+2026-04-12 22:35:29 [INFO] 答案生成成功 (2853ms): D...
+2026-04-12 22:35:38 [INFO] API请求: 题目="使用石墨炉原子化器时，可以直接将高浓度样品注入石墨管中，无需稀释。..." 类型=judgement {"title":"使用石墨炉原子化器时，可以直接将高浓度样品注入石墨管中，无需稀释。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"使用石墨炉原子化器时，可以直接将高浓度样品注入石墨管中，无需稀释。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"使用石墨炉原子化器时，可以直接将高浓度样品注入石墨管中，无需稀释。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:35:38 [INFO] 收到题目请求: 使用石墨炉原子化器时，可以直接将高浓度样品注入石墨管中，无需稀释。... {"type":"judgement","hasOptions":true}
+2026-04-12 22:35:51 [INFO] 题目请求处理成功 {"title":"使用石墨炉原子化器时，可以直接将高浓度样品注入石墨管中，无需稀释。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"12254ms","status":"success"}
+2026-04-12 22:35:51 [INFO] 答案生成成功 (12254ms): B. 错...
+2026-04-12 22:35:59 [INFO] API请求: 题目="原子吸收仪在使用前必须对光路进行对齐调节，以确保光强最大化..." 类型=judgement {"title":"原子吸收仪在使用前必须对光路进行对齐调节，以确保光强最大化","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"原子吸收仪在使用前必须对光路进行对齐调节，以确保光强最大化\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"原子吸收仪在使用前必须对光路进行对齐调节，以确保光强最大化\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:35:59 [INFO] 收到题目请求: 原子吸收仪在使用前必须对光路进行对齐调节，以确保光强最大化... {"type":"judgement","hasOptions":true}
+2026-04-12 22:36:01 [INFO] 题目请求处理成功 {"title":"原子吸收仪在使用前必须对光路进行对齐调节，以确保光强最大化","type":"judgement","hasOptions":true,"answerLength":4,"duration":"2639ms","status":"success"}
+2026-04-12 22:36:01 [INFO] 答案生成成功 (2639ms): A. 对...
+2026-04-12 22:36:09 [INFO] API请求: 题目="原子吸收分析中，样品溶液必须完全澄清，若有沉淀需过滤后再测定。..." 类型=judgement {"title":"原子吸收分析中，样品溶液必须完全澄清，若有沉淀需过滤后再测定。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"原子吸收分析中，样品溶液必须完全澄清，若有沉淀需过滤后再测定。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"原子吸收分析中，样品溶液必须完全澄清，若有沉淀需过滤后再测定。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:36:09 [INFO] 收到题目请求: 原子吸收分析中，样品溶液必须完全澄清，若有沉淀需过滤后再测定。... {"type":"judgement","hasOptions":true}
+2026-04-12 22:36:11 [INFO] 题目请求处理成功 {"title":"原子吸收分析中，样品溶液必须完全澄清，若有沉淀需过滤后再测定。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"2439ms","status":"success"}
+2026-04-12 22:36:11 [INFO] 答案生成成功 (2439ms): A. 对...
+2026-04-12 22:37:34 [INFO] API请求: 题目="等离子体光源由高频发生器，等离子体矩管和高频感应线圈组成。..." 类型=judgement {"title":"等离子体光源由高频发生器，等离子体矩管和高频感应线圈组成。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"等离子体光源由高频发生器，等离子体矩管和高频感应线圈组成。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"等离子体光源由高频发生器，等离子体矩管和高频感应线圈组成。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:37:34 [INFO] 收到题目请求: 等离子体光源由高频发生器，等离子体矩管和高频感应线圈组成。... {"type":"judgement","hasOptions":true}
+2026-04-12 22:37:37 [INFO] 题目请求处理成功 {"title":"等离子体光源由高频发生器，等离子体矩管和高频感应线圈组成。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"2724ms","status":"success"}
+2026-04-12 22:37:37 [INFO] 答案生成成功 (2724ms): A. 对...
+2026-04-12 22:37:44 [INFO] API请求: 题目="原子发射光谱的激发光源的作用是提供足够的能量，使试样蒸发原子化和激发。..." 类型=judgement {"title":"原子发射光谱的激发光源的作用是提供足够的能量，使试样蒸发原子化和激发。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"原子发射光谱的激发光源的作用是提供足够的能量，使试样蒸发原子化和激发。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"原子发射光谱的激发光源的作用是提供足够的能量，使试样蒸发原子化和激发。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:37:44 [INFO] 收到题目请求: 原子发射光谱的激发光源的作用是提供足够的能量，使试样蒸发原子化和激发。... {"type":"judgement","hasOptions":true}
+2026-04-12 22:37:47 [INFO] 题目请求处理成功 {"title":"原子发射光谱的激发光源的作用是提供足够的能量，使试样蒸发原子化和激发。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"2211ms","status":"success"}
+2026-04-12 22:37:47 [INFO] 答案生成成功 (2211ms): A. 对...
+2026-04-12 22:37:54 [INFO] API请求: 题目="对原子发射光谱法比对原子荧光光谱法影响更严重的因素是光谱线干扰。..." 类型=judgement {"title":"对原子发射光谱法比对原子荧光光谱法影响更严重的因素是光谱线干扰。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"对原子发射光谱法比对原子荧光光谱法影响更严重的因素是光谱线干扰。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"对原子发射光谱法比对原子荧光光谱法影响更严重的因素是光谱线干扰。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:37:54 [INFO] 收到题目请求: 对原子发射光谱法比对原子荧光光谱法影响更严重的因素是光谱线干扰。... {"type":"judgement","hasOptions":true}
+2026-04-12 22:37:57 [INFO] 题目请求处理成功 {"title":"对原子发射光谱法比对原子荧光光谱法影响更严重的因素是光谱线干扰。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"3078ms","status":"success"}
+2026-04-12 22:37:57 [INFO] 答案生成成功 (3078ms): A. 对...
+2026-04-12 22:38:05 [INFO] API请求: 题目="发射光谱定量分析的依据是谱线的波长。..." 类型=judgement {"title":"发射光谱定量分析的依据是谱线的波长。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"发射光谱定量分析的依据是谱线的波长。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"发射光谱定量分析的依据是谱线的波长。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:38:05 [INFO] 收到题目请求: 发射光谱定量分析的依据是谱线的波长。... {"type":"judgement","hasOptions":true}
+2026-04-12 22:38:08 [INFO] 题目请求处理成功 {"title":"发射光谱定量分析的依据是谱线的波长。","type":"judgement","hasOptions":true,"answerLength":59,"duration":"2925ms","status":"success"}
+2026-04-12 22:38:08 [INFO] 答案生成成功 (2925ms): **B. 错**
+
+发射光谱**定性**分析的依据是谱线的**波长**，而**定量**分析的依据是谱...
+2026-04-12 22:38:14 [INFO] API请求: 题目="下面几种常用激发光源中，分析灵敏度最高的是（ ）。..." 类型=single {"title":"下面几种常用激发光源中，分析灵敏度最高的是（ ）。","type":"single","options":"A.\n直流电弧\nB.\n交流电弧\nC.\n电火花\nD.\n高频电感耦合等离子体","body":"{\"title\":\"下面几种常用激发光源中，分析灵敏度最高的是（ ）。\",\"type\":\"single\",\"options\":\"A.\\n直流电弧\\nB.\\n交流电弧\\nC.\\n电火花\\nD.\\n高频电感耦合等离子体\"}","rawTextBody":"{\"title\":\"下面几种常用激发光源中，分析灵敏度最高的是（ ）。\",\"type\":\"single\",\"options\":\"A.\\n直流电弧\\nB.\\n交流电弧\\nC.\\n电火花\\nD.\\n高频电感耦合等离子体\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:38:14 [INFO] 收到题目请求: 下面几种常用激发光源中，分析灵敏度最高的是（ ）。... {"type":"single","hasOptions":true}
+2026-04-12 22:38:17 [INFO] 题目请求处理成功 {"title":"下面几种常用激发光源中，分析灵敏度最高的是（ ）。","type":"single","hasOptions":true,"answerLength":1,"duration":"3147ms","status":"success"}
+2026-04-12 22:38:17 [INFO] 答案生成成功 (3147ms): A...
+2026-04-12 22:38:25 [INFO] API请求: 题目="等离子体是气态物质在温度升高到一定程度后电离形成的由正负离子数目不相等的一种物质形态。..." 类型=judgement {"title":"等离子体是气态物质在温度升高到一定程度后电离形成的由正负离子数目不相等的一种物质形态。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"等离子体是气态物质在温度升高到一定程度后电离形成的由正负离子数目不相等的一种物质形态。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"等离子体是气态物质在温度升高到一定程度后电离形成的由正负离子数目不相等的一种物质形态。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:38:25 [INFO] 收到题目请求: 等离子体是气态物质在温度升高到一定程度后电离形成的由正负离子数目不相等的一种物质形态。... {"type":"judgement","hasOptions":true}
+2026-04-12 22:38:28 [INFO] 题目请求处理成功 {"title":"等离子体是气态物质在温度升高到一定程度后电离形成的由正负离子数目不相等的一种物质形态。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"2650ms","status":"success"}
+2026-04-12 22:38:28 [INFO] 答案生成成功 (2650ms): B. 错...
+2026-04-12 22:39:41 [INFO] API请求: 题目="原子发射光谱与原子吸收光谱产生的共同点在于（ ）。..." 类型=single {"title":"原子发射光谱与原子吸收光谱产生的共同点在于（ ）。","type":"single","options":"A.\n辐射能使气态原子内层电子产生跃迁\nB.\n基态原子对共振线的吸收\nC.\n气态原子外层电子产生跃迁\nD.\n激发态原子产生的辐射","body":"{\"title\":\"原子发射光谱与原子吸收光谱产生的共同点在于（ ）。\",\"type\":\"single\",\"options\":\"A.\\n辐射能使气态原子内层电子产生跃迁\\nB.\\n基态原子对共振线的吸收\\nC.\\n气态原子外层电子产生跃迁\\nD.\\n激发态原子产生的辐射\"}","rawTextBody":"{\"title\":\"原子发射光谱与原子吸收光谱产生的共同点在于（ ）。\",\"type\":\"single\",\"options\":\"A.\\n辐射能使气态原子内层电子产生跃迁\\nB.\\n基态原子对共振线的吸收\\nC.\\n气态原子外层电子产生跃迁\\nD.\\n激发态原子产生的辐射\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:39:41 [INFO] 收到题目请求: 原子发射光谱与原子吸收光谱产生的共同点在于（ ）。... {"type":"single","hasOptions":true}
+2026-04-12 22:39:44 [INFO] 题目请求处理成功 {"title":"原子发射光谱与原子吸收光谱产生的共同点在于（ ）。","type":"single","hasOptions":true,"answerLength":1,"duration":"2679ms","status":"success"}
+2026-04-12 22:39:44 [INFO] 答案生成成功 (2679ms): C...
+2026-04-12 22:39:51 [INFO] API请求: 题目="发射光谱定量分析选用的“分析线对”应是这样的一对线（ ）。..." 类型=single {"title":"发射光谱定量分析选用的“分析线对”应是这样的一对线（ ）。","type":"single","options":"A.\n波长不一定接近，但激发电位要相近\nB.\n波长要接近，激发电位可以不接近\nC.\n波长和激发电位都应接近\nD.\n波长和激发电位都不一定接近","body":"{\"title\":\"发射光谱定量分析选用的“分析线对”应是这样的一对线（ ）。\",\"type\":\"single\",\"options\":\"A.\\n波长不一定接近，但激发电位要相近\\nB.\\n波长要接近，激发电位可以不接近\\nC.\\n波长和激发电位都应接近\\nD.\\n波长和激发电位都不一定接近\"}","rawTextBody":"{\"title\":\"发射光谱定量分析选用的“分析线对”应是这样的一对线（ ）。\",\"type\":\"single\",\"options\":\"A.\\n波长不一定接近，但激发电位要相近\\nB.\\n波长要接近，激发电位可以不接近\\nC.\\n波长和激发电位都应接近\\nD.\\n波长和激发电位都不一定接近\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:39:51 [INFO] 收到题目请求: 发射光谱定量分析选用的“分析线对”应是这样的一对线（ ）。... {"type":"single","hasOptions":true}
+2026-04-12 22:39:55 [INFO] 题目请求处理成功 {"title":"发射光谱定量分析选用的“分析线对”应是这样的一对线（ ）。","type":"single","hasOptions":true,"answerLength":1,"duration":"4095ms","status":"success"}
+2026-04-12 22:39:55 [INFO] 答案生成成功 (4095ms): C...
+2026-04-12 22:40:03 [INFO] API请求: 题目="用原子发射光谱分析法分析污水中的Cr、Mn、Cu、Fe等（含量为10-6数量级），应选用下列哪种激发..." 类型=single {"title":"用原子发射光谱分析法分析污水中的Cr、Mn、Cu、Fe等（含量为10-6数量级），应选用下列哪种激发光源（ ）。","type":"single","options":"A.\n\n火焰\nB.\n\n直流电弧\nC.\n\n高压火花\nD.\n\n电感耦合等离子炬","body":"{\"title\":\"用原子发射光谱分析法分析污水中的Cr、Mn、Cu、Fe等（含量为10-6数量级），应选用下列哪种激发光源（ ）。\",\"type\":\"single\",\"options\":\"A.\\n\\n火焰\\nB.\\n\\n直流电弧\\nC.\\n\\n高压火花\\nD.\\n\\n电感耦合等离子炬\"}","rawTextBody":"{\"title\":\"用原子发射光谱分析法分析污水中的Cr、Mn、Cu、Fe等（含量为10-6数量级），应选用下列哪种激发光源（ ）。\",\"type\":\"single\",\"options\":\"A.\\n\\n火焰\\nB.\\n\\n直流电弧\\nC.\\n\\n高压火花\\nD.\\n\\n电感耦合等离子炬\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:40:03 [INFO] 收到题目请求: 用原子发射光谱分析法分析污水中的Cr、Mn、Cu、Fe等（含量为10-6数量级），应选用下列哪种激发... {"type":"single","hasOptions":true}
+2026-04-12 22:40:05 [INFO] 题目请求处理成功 {"title":"用原子发射光谱分析法分析污水中的Cr、Mn、Cu、Fe等（含量为10-6数量级），应选用下列哪种激发光源（ ）。","type":"single","hasOptions":true,"answerLength":1,"duration":"2505ms","status":"success"}
+2026-04-12 22:40:05 [INFO] 答案生成成功 (2505ms): D...
+2026-04-12 22:40:13 [INFO] API请求: 题目="下列各种说法中错误的是（ ）。..." 类型=single {"title":"下列各种说法中错误的是（ ）。","type":"single","options":"A.\n原子发射光谱分析是靠识别元素特征谱线来鉴别元素的存在\nB.\n对于复杂组分的分析我们通常以铁光谱为标准，采用元素光谱图比较法\nC.\n原子发射光谱是线状光谱\nD.\n原子发射光谱主要依据元素特征谱线的高度进行定量分析","body":"{\"title\":\"下列各种说法中错误的是（ ）。\",\"type\":\"single\",\"options\":\"A.\\n原子发射光谱分析是靠识别元素特征谱线来鉴别元素的存在\\nB.\\n对于复杂组分的分析我们通常以铁光谱为标准，采用元素光谱图比较法\\nC.\\n原子发射光谱是线状光谱\\nD.\\n原子发射光谱主要依据元素特征谱线的高度进行定量分析\"}","rawTextBody":"{\"title\":\"下列各种说法中错误的是（ ）。\",\"type\":\"single\",\"options\":\"A.\\n原子发射光谱分析是靠识别元素特征谱线来鉴别元素的存在\\nB.\\n对于复杂组分的分析我们通常以铁光谱为标准，采用元素光谱图比较法\\nC.\\n原子发射光谱是线状光谱\\nD.\\n原子发射光谱主要依据元素特征谱线的高度进行定量分析\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:40:13 [INFO] 收到题目请求: 下列各种说法中错误的是（ ）。... {"type":"single","hasOptions":true}
+2026-04-12 22:40:16 [INFO] 题目请求处理成功 {"title":"下列各种说法中错误的是（ ）。","type":"single","hasOptions":true,"answerLength":1,"duration":"2787ms","status":"success"}
+2026-04-12 22:40:16 [INFO] 答案生成成功 (2787ms): D...
+2026-04-12 22:40:23 [INFO] API请求: 题目="原子发射光谱仪中光源的作用是（ ）。..." 类型=single {"title":"原子发射光谱仪中光源的作用是（ ）。","type":"single","options":"A.\n提供足够能量使试样蒸发、原子化/离子化、激发\nB.\n提供足够能量使试样灰化\nC.\n\"将试样中的杂质除去,消除干扰\"\nD.\n得到特定波长和强度的锐线光谱","body":"{\"title\":\"原子发射光谱仪中光源的作用是（ ）。\",\"type\":\"single\",\"options\":\"A.\\n提供足够能量使试样蒸发、原子化/离子化、激发\\nB.\\n提供足够能量使试样灰化\\nC.\\n\\\"将试样中的杂质除去,消除干扰\\\"\\nD.\\n得到特定波长和强度的锐线光谱\"}","rawTextBody":"{\"title\":\"原子发射光谱仪中光源的作用是（ ）。\",\"type\":\"single\",\"options\":\"A.\\n提供足够能量使试样蒸发、原子化/离子化、激发\\nB.\\n提供足够能量使试样灰化\\nC.\\n\\\"将试样中的杂质除去,消除干扰\\\"\\nD.\\n得到特定波长和强度的锐线光谱\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:40:23 [INFO] 收到题目请求: 原子发射光谱仪中光源的作用是（ ）。... {"type":"single","hasOptions":true}
+2026-04-12 22:40:26 [INFO] 题目请求处理成功 {"title":"原子发射光谱仪中光源的作用是（ ）。","type":"single","hasOptions":true,"answerLength":1,"duration":"2998ms","status":"success"}
+2026-04-12 22:40:26 [INFO] 答案生成成功 (2998ms): A...
+2026-04-12 22:40:34 [INFO] API请求: 题目="下面哪种光源，不但能激发产生原子光谱和离子光谱，而且许多元素的离子线强度大于原子线强度？ （ ）..." 类型=single {"title":"下面哪种光源，不但能激发产生原子光谱和离子光谱，而且许多元素的离子线强度大于原子线强度？ （ ）","type":"single","options":"A.\n直流电弧\nB.\n交流电弧\nC.\n电火花\nD.\n高频电感耦合等离子体","body":"{\"title\":\"下面哪种光源，不但能激发产生原子光谱和离子光谱，而且许多元素的离子线强度大于原子线强度？ （ ）\",\"type\":\"single\",\"options\":\"A.\\n直流电弧\\nB.\\n交流电弧\\nC.\\n电火花\\nD.\\n高频电感耦合等离子体\"}","rawTextBody":"{\"title\":\"下面哪种光源，不但能激发产生原子光谱和离子光谱，而且许多元素的离子线强度大于原子线强度？ （ ）\",\"type\":\"single\",\"options\":\"A.\\n直流电弧\\nB.\\n交流电弧\\nC.\\n电火花\\nD.\\n高频电感耦合等离子体\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:40:34 [INFO] 收到题目请求: 下面哪种光源，不但能激发产生原子光谱和离子光谱，而且许多元素的离子线强度大于原子线强度？ （ ）... {"type":"single","hasOptions":true}
+2026-04-12 22:40:36 [INFO] 题目请求处理成功 {"title":"下面哪种光源，不但能激发产生原子光谱和离子光谱，而且许多元素的离子线强度大于原子线强度？ （ ）","type":"single","hasOptions":true,"answerLength":1,"duration":"2444ms","status":"success"}
+2026-04-12 22:40:36 [INFO] 答案生成成功 (2444ms): D...
+2026-04-12 22:42:06 [INFO] API请求: 题目="发射光谱分析中， 具有低干扰、高精度、高灵敏度和宽线性范围的激发光源是电火花。..." 类型=judgement {"title":"发射光谱分析中， 具有低干扰、高精度、高灵敏度和宽线性范围的激发光源是电火花。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"发射光谱分析中， 具有低干扰、高精度、高灵敏度和宽线性范围的激发光源是电火花。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"发射光谱分析中， 具有低干扰、高精度、高灵敏度和宽线性范围的激发光源是电火花。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:42:06 [INFO] 收到题目请求: 发射光谱分析中， 具有低干扰、高精度、高灵敏度和宽线性范围的激发光源是电火花。... {"type":"judgement","hasOptions":true}
+2026-04-12 22:42:09 [INFO] 题目请求处理成功 {"title":"发射光谱分析中， 具有低干扰、高精度、高灵敏度和宽线性范围的激发光源是电火花。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"3480ms","status":"success"}
+2026-04-12 22:42:09 [INFO] 答案生成成功 (3480ms): B. 错...
+2026-04-12 22:42:16 [INFO] API请求: 题目="发射光谱分析中，应用光谱载体的主要目的是方便于样品的引入。..." 类型=judgement {"title":"发射光谱分析中，应用光谱载体的主要目的是方便于样品的引入。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"发射光谱分析中，应用光谱载体的主要目的是方便于样品的引入。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"发射光谱分析中，应用光谱载体的主要目的是方便于样品的引入。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:42:16 [INFO] 收到题目请求: 发射光谱分析中，应用光谱载体的主要目的是方便于样品的引入。... {"type":"judgement","hasOptions":true}
+2026-04-12 22:42:19 [INFO] 题目请求处理成功 {"title":"发射光谱分析中，应用光谱载体的主要目的是方便于样品的引入。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"2487ms","status":"success"}
+2026-04-12 22:42:19 [INFO] 答案生成成功 (2487ms): B. 错...
+2026-04-12 22:42:27 [INFO] API请求: 题目="激发态原子由激发态直接跃迁回到基态所产生的谱线是（ ）。..." 类型=single {"title":"激发态原子由激发态直接跃迁回到基态所产生的谱线是（ ）。","type":"single","options":"A.\n灵敏线\nB.\n共振线\nC.\n最后线\nD.\n分析线","body":"{\"title\":\"激发态原子由激发态直接跃迁回到基态所产生的谱线是（ ）。\",\"type\":\"single\",\"options\":\"A.\\n灵敏线\\nB.\\n共振线\\nC.\\n最后线\\nD.\\n分析线\"}","rawTextBody":"{\"title\":\"激发态原子由激发态直接跃迁回到基态所产生的谱线是（ ）。\",\"type\":\"single\",\"options\":\"A.\\n灵敏线\\nB.\\n共振线\\nC.\\n最后线\\nD.\\n分析线\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:42:27 [INFO] 收到题目请求: 激发态原子由激发态直接跃迁回到基态所产生的谱线是（ ）。... {"type":"single","hasOptions":true}
+2026-04-12 22:42:29 [INFO] 题目请求处理成功 {"title":"激发态原子由激发态直接跃迁回到基态所产生的谱线是（ ）。","type":"single","hasOptions":true,"answerLength":1,"duration":"2584ms","status":"success"}
+2026-04-12 22:42:29 [INFO] 答案生成成功 (2584ms): B...
+2026-04-12 22:42:37 [INFO] API请求: 题目="对原子发射光谱法比对原子荧光光谱法影响更严重的因素是（ ）。..." 类型=single {"title":"对原子发射光谱法比对原子荧光光谱法影响更严重的因素是（ ）。","type":"single","options":"A.\n粒子的浓度\nB.\n杂散光\nC.\n化学干扰\nD.\n光谱线干扰","body":"{\"title\":\"对原子发射光谱法比对原子荧光光谱法影响更严重的因素是（ ）。\",\"type\":\"single\",\"options\":\"A.\\n粒子的浓度\\nB.\\n杂散光\\nC.\\n化学干扰\\nD.\\n光谱线干扰\"}","rawTextBody":"{\"title\":\"对原子发射光谱法比对原子荧光光谱法影响更严重的因素是（ ）。\",\"type\":\"single\",\"options\":\"A.\\n粒子的浓度\\nB.\\n杂散光\\nC.\\n化学干扰\\nD.\\n光谱线干扰\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:42:37 [INFO] 收到题目请求: 对原子发射光谱法比对原子荧光光谱法影响更严重的因素是（ ）。... {"type":"single","hasOptions":true}
+2026-04-12 22:42:39 [INFO] 题目请求处理成功 {"title":"对原子发射光谱法比对原子荧光光谱法影响更严重的因素是（ ）。","type":"single","hasOptions":true,"answerLength":1,"duration":"2792ms","status":"success"}
+2026-04-12 22:42:39 [INFO] 答案生成成功 (2792ms): D...
+2026-04-12 22:42:47 [INFO] API请求: 题目="下列方法不能消除光栅光谱重叠现象的是（ ）。..." 类型=single {"title":"下列方法不能消除光栅光谱重叠现象的是（ ）。","type":"single","options":"A.\n利用滤光片吸收干扰波长\nB.\n利用感光板的灵敏区不同，消除干扰波段\nC.\n利用谱级分离器消除干扰波长\nD.\n利用光栅材料不同消除干扰","body":"{\"title\":\"下列方法不能消除光栅光谱重叠现象的是（ ）。\",\"type\":\"single\",\"options\":\"A.\\n利用滤光片吸收干扰波长\\nB.\\n利用感光板的灵敏区不同，消除干扰波段\\nC.\\n利用谱级分离器消除干扰波长\\nD.\\n利用光栅材料不同消除干扰\"}","rawTextBody":"{\"title\":\"下列方法不能消除光栅光谱重叠现象的是（ ）。\",\"type\":\"single\",\"options\":\"A.\\n利用滤光片吸收干扰波长\\nB.\\n利用感光板的灵敏区不同，消除干扰波段\\nC.\\n利用谱级分离器消除干扰波长\\nD.\\n利用光栅材料不同消除干扰\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:42:47 [INFO] 收到题目请求: 下列方法不能消除光栅光谱重叠现象的是（ ）。... {"type":"single","hasOptions":true}
+2026-04-12 22:42:50 [INFO] 题目请求处理成功 {"title":"下列方法不能消除光栅光谱重叠现象的是（ ）。","type":"single","hasOptions":true,"answerLength":1,"duration":"2955ms","status":"success"}
+2026-04-12 22:42:50 [INFO] 答案生成成功 (2955ms): D...
+2026-04-12 22:42:57 [INFO] API请求: 题目="当不考虑光源的影响时，下列元素中发射光谱谱线最为复杂的是（ ）。..." 类型=single {"title":"当不考虑光源的影响时，下列元素中发射光谱谱线最为复杂的是（ ）。","type":"single","options":"A.\nK\nB.\nCa\nC.\nZn\nD.\nFe","body":"{\"title\":\"当不考虑光源的影响时，下列元素中发射光谱谱线最为复杂的是（ ）。\",\"type\":\"single\",\"options\":\"A.\\nK\\nB.\\nCa\\nC.\\nZn\\nD.\\nFe\"}","rawTextBody":"{\"title\":\"当不考虑光源的影响时，下列元素中发射光谱谱线最为复杂的是（ ）。\",\"type\":\"single\",\"options\":\"A.\\nK\\nB.\\nCa\\nC.\\nZn\\nD.\\nFe\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:42:57 [INFO] 收到题目请求: 当不考虑光源的影响时，下列元素中发射光谱谱线最为复杂的是（ ）。... {"type":"single","hasOptions":true}
+2026-04-12 22:43:00 [INFO] 题目请求处理成功 {"title":"当不考虑光源的影响时，下列元素中发射光谱谱线最为复杂的是（ ）。","type":"single","hasOptions":true,"answerLength":1,"duration":"2612ms","status":"success"}
+2026-04-12 22:43:00 [INFO] 答案生成成功 (2612ms): D...
+2026-04-12 22:43:30 [INFO] API请求: 题目="标准曲线法中，线性相关系数R²应至少达到（）。..." 类型=single {"title":"标准曲线法中，线性相关系数R²应至少达到（）。","type":"single","options":"A.\n\n0.9\nB.\n\n0.95\nC.\n\n0.99\nD.\n\n1.0","body":"{\"title\":\"标准曲线法中，线性相关系数R²应至少达到（）。\",\"type\":\"single\",\"options\":\"A.\\n\\n0.9\\nB.\\n\\n0.95\\nC.\\n\\n0.99\\nD.\\n\\n1.0\"}","rawTextBody":"{\"title\":\"标准曲线法中，线性相关系数R²应至少达到（）。\",\"type\":\"single\",\"options\":\"A.\\n\\n0.9\\nB.\\n\\n0.95\\nC.\\n\\n0.99\\nD.\\n\\n1.0\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:43:30 [INFO] 收到题目请求: 标准曲线法中，线性相关系数R²应至少达到（）。... {"type":"single","hasOptions":true}
+2026-04-12 22:43:32 [INFO] 题目请求处理成功 {"title":"标准曲线法中，线性相关系数R²应至少达到（）。","type":"single","hasOptions":true,"answerLength":1,"duration":"2402ms","status":"success"}
+2026-04-12 22:43:32 [INFO] 答案生成成功 (2402ms): C...
+2026-04-12 22:43:39 [INFO] API请求: 题目="若实验中使用氩气作为工作气体，气瓶压力低于1MPa时应及时更换。..." 类型=judgement {"title":"若实验中使用氩气作为工作气体，气瓶压力低于1MPa时应及时更换。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"若实验中使用氩气作为工作气体，气瓶压力低于1MPa时应及时更换。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"若实验中使用氩气作为工作气体，气瓶压力低于1MPa时应及时更换。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:43:39 [INFO] 收到题目请求: 若实验中使用氩气作为工作气体，气瓶压力低于1MPa时应及时更换。... {"type":"judgement","hasOptions":true}
+2026-04-12 22:43:42 [INFO] 题目请求处理成功 {"title":"若实验中使用氩气作为工作气体，气瓶压力低于1MPa时应及时更换。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"2973ms","status":"success"}
+2026-04-12 22:43:42 [INFO] 答案生成成功 (2973ms): A. 对...
+2026-04-12 22:43:50 [INFO] API请求: 题目="进行多元素同时测定时，应选择各元素互不干扰的分析线，避免谱线重叠。..." 类型=judgement {"title":"进行多元素同时测定时，应选择各元素互不干扰的分析线，避免谱线重叠。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"进行多元素同时测定时，应选择各元素互不干扰的分析线，避免谱线重叠。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"进行多元素同时测定时，应选择各元素互不干扰的分析线，避免谱线重叠。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:43:50 [INFO] 收到题目请求: 进行多元素同时测定时，应选择各元素互不干扰的分析线，避免谱线重叠。... {"type":"judgement","hasOptions":true}
+2026-04-12 22:43:53 [INFO] 题目请求处理成功 {"title":"进行多元素同时测定时，应选择各元素互不干扰的分析线，避免谱线重叠。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"2984ms","status":"success"}
+2026-04-12 22:43:53 [INFO] 答案生成成功 (2984ms): A. 对...
+2026-04-12 22:44:01 [INFO] API请求: 题目="ICP测试过程中，若发现信号强度持续下降，可能是雾化器效率降低或矩管污染，应立即停机检查。..." 类型=judgement {"title":"ICP测试过程中，若发现信号强度持续下降，可能是雾化器效率降低或矩管污染，应立即停机检查。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"ICP测试过程中，若发现信号强度持续下降，可能是雾化器效率降低或矩管污染，应立即停机检查。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"ICP测试过程中，若发现信号强度持续下降，可能是雾化器效率降低或矩管污染，应立即停机检查。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:44:01 [INFO] 收到题目请求: ICP测试过程中，若发现信号强度持续下降，可能是雾化器效率降低或矩管污染，应立即停机检查。... {"type":"judgement","hasOptions":true}
+2026-04-12 22:44:03 [INFO] 题目请求处理成功 {"title":"ICP测试过程中，若发现信号强度持续下降，可能是雾化器效率降低或矩管污染，应立即停机检查。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"2333ms","status":"success"}
+2026-04-12 22:44:03 [INFO] 答案生成成功 (2333ms): A. 对...
+2026-04-12 22:44:11 [INFO] API请求: 题目="在进行ICP-AES分析时，若样品含盐量过高，应优先采用标准加入法而非外标法定量。..." 类型=judgement {"title":"在进行ICP-AES分析时，若样品含盐量过高，应优先采用标准加入法而非外标法定量。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"在进行ICP-AES分析时，若样品含盐量过高，应优先采用标准加入法而非外标法定量。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"在进行ICP-AES分析时，若样品含盐量过高，应优先采用标准加入法而非外标法定量。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:44:11 [INFO] 收到题目请求: 在进行ICP-AES分析时，若样品含盐量过高，应优先采用标准加入法而非外标法定量。... {"type":"judgement","hasOptions":true}
+2026-04-12 22:44:13 [INFO] 题目请求处理成功 {"title":"在进行ICP-AES分析时，若样品含盐量过高，应优先采用标准加入法而非外标法定量。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"2681ms","status":"success"}
+2026-04-12 22:44:13 [INFO] 答案生成成功 (2681ms): A. 对...
+2026-04-12 22:44:21 [INFO] API请求: 题目="进行背景校正时，应选择待测元素谱线附近无干扰的空白区域作为背景点。..." 类型=judgement {"title":"进行背景校正时，应选择待测元素谱线附近无干扰的空白区域作为背景点。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"进行背景校正时，应选择待测元素谱线附近无干扰的空白区域作为背景点。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"进行背景校正时，应选择待测元素谱线附近无干扰的空白区域作为背景点。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:44:21 [INFO] 收到题目请求: 进行背景校正时，应选择待测元素谱线附近无干扰的空白区域作为背景点。... {"type":"judgement","hasOptions":true}
+2026-04-12 22:44:23 [INFO] 题目请求处理成功 {"title":"进行背景校正时，应选择待测元素谱线附近无干扰的空白区域作为背景点。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"2532ms","status":"success"}
+2026-04-12 22:44:23 [INFO] 答案生成成功 (2532ms): A. 对...
+2026-04-12 22:45:05 [INFO] API请求: 题目="蠕动泵夹无需调节，泵夹的松紧度对样品的进样没有影响。..." 类型=judgement {"title":"蠕动泵夹无需调节，泵夹的松紧度对样品的进样没有影响。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"蠕动泵夹无需调节，泵夹的松紧度对样品的进样没有影响。 \",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"蠕动泵夹无需调节，泵夹的松紧度对样品的进样没有影响。 \",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:45:05 [INFO] 收到题目请求: 蠕动泵夹无需调节，泵夹的松紧度对样品的进样没有影响。... {"type":"judgement","hasOptions":true}
+2026-04-12 22:45:10 [INFO] 题目请求处理成功 {"title":"蠕动泵夹无需调节，泵夹的松紧度对样品的进样没有影响。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"4852ms","status":"success"}
+2026-04-12 22:45:10 [INFO] 答案生成成功 (4852ms): B. 错...
+2026-04-12 22:45:18 [INFO] API请求: 题目="以下（）行为在ICP-AES实验室内存在严重安全隐患。..." 类型=single {"title":"以下（）行为在ICP-AES实验室内存在严重安全隐患。","type":"single","options":"A.\n穿着实验服\nB.\n在等离子体运行时，直接用手调整炬管位置\nC.\n佩戴护目镜\nD.\n样品进样前进行过滤","body":"{\"title\":\"以下（）行为在ICP-AES实验室内存在严重安全隐患。\",\"type\":\"single\",\"options\":\"A.\\n穿着实验服\\nB.\\n在等离子体运行时，直接用手调整炬管位置\\nC.\\n佩戴护目镜\\nD.\\n样品进样前进行过滤\"}","rawTextBody":"{\"title\":\"以下（）行为在ICP-AES实验室内存在严重安全隐患。\",\"type\":\"single\",\"options\":\"A.\\n穿着实验服\\nB.\\n在等离子体运行时，直接用手调整炬管位置\\nC.\\n佩戴护目镜\\nD.\\n样品进样前进行过滤\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:45:18 [INFO] 收到题目请求: 以下（）行为在ICP-AES实验室内存在严重安全隐患。... {"type":"single","hasOptions":true}
+2026-04-12 22:45:20 [INFO] 题目请求处理成功 {"title":"以下（）行为在ICP-AES实验室内存在严重安全隐患。","type":"single","hasOptions":true,"answerLength":1,"duration":"2798ms","status":"success"}
+2026-04-12 22:45:20 [INFO] 答案生成成功 (2798ms): B...
+2026-04-12 22:45:28 [INFO] API请求: 题目="更换样品时，应先停止进样泵，再更换样品管，避免空气进入雾化系统。..." 类型=judgement {"title":"更换样品时，应先停止进样泵，再更换样品管，避免空气进入雾化系统。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"更换样品时，应先停止进样泵，再更换样品管，避免空气进入雾化系统。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"更换样品时，应先停止进样泵，再更换样品管，避免空气进入雾化系统。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:45:28 [INFO] 收到题目请求: 更换样品时，应先停止进样泵，再更换样品管，避免空气进入雾化系统。... {"type":"judgement","hasOptions":true}
+2026-04-12 22:45:31 [INFO] 题目请求处理成功 {"title":"更换样品时，应先停止进样泵，再更换样品管，避免空气进入雾化系统。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"3391ms","status":"success"}
+2026-04-12 22:45:31 [INFO] 答案生成成功 (3391ms): A. 对...
+2026-04-12 22:45:39 [INFO] API请求: 题目="长期分析高盐样品后，应特别注意清洗（）部件。..." 类型=single {"title":"长期分析高盐样品后，应特别注意清洗（）部件。","type":"single","options":"A.\n等离子体炬管\nB.\n雾化器与雾室\nC.\n光学窗口\nD.\n检测器","body":"{\"title\":\"长期分析高盐样品后，应特别注意清洗（）部件。\",\"type\":\"single\",\"options\":\"A.\\n等离子体炬管\\nB.\\n雾化器与雾室\\nC.\\n光学窗口\\nD.\\n检测器\"}","rawTextBody":"{\"title\":\"长期分析高盐样品后，应特别注意清洗（）部件。\",\"type\":\"single\",\"options\":\"A.\\n等离子体炬管\\nB.\\n雾化器与雾室\\nC.\\n光学窗口\\nD.\\n检测器\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:45:39 [INFO] 收到题目请求: 长期分析高盐样品后，应特别注意清洗（）部件。... {"type":"single","hasOptions":true}
+2026-04-12 22:45:41 [INFO] 题目请求处理成功 {"title":"长期分析高盐样品后，应特别注意清洗（）部件。","type":"single","hasOptions":true,"answerLength":1,"duration":"2469ms","status":"success"}
+2026-04-12 22:45:41 [INFO] 答案生成成功 (2469ms): B...
+2026-04-12 22:45:49 [INFO] API请求: 题目="ICP仪器打开后需确保在“大量驱气”模式下驱气120分钟，以防止CID检测器结霜造成损坏。..." 类型=judgement {"title":"ICP仪器打开后需确保在“大量驱气”模式下驱气120分钟，以防止CID检测器结霜造成损坏。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"ICP仪器打开后需确保在“大量驱气”模式下驱气120分钟，以防止CID检测器结霜造成损坏。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"ICP仪器打开后需确保在“大量驱气”模式下驱气120分钟，以防止CID检测器结霜造成损坏。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:45:49 [INFO] 收到题目请求: ICP仪器打开后需确保在“大量驱气”模式下驱气120分钟，以防止CID检测器结霜造成损坏。... {"type":"judgement","hasOptions":true}
+2026-04-12 22:45:52 [INFO] 题目请求处理成功 {"title":"ICP仪器打开后需确保在“大量驱气”模式下驱气120分钟，以防止CID检测器结霜造成损坏。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"2340ms","status":"success"}
+2026-04-12 22:45:52 [INFO] 答案生成成功 (2340ms): A. 对...
+2026-04-12 22:45:59 [INFO] API请求: 题目="分析完成后，正确的关机顺序是（）。..." 类型=single {"title":"分析完成后，正确的关机顺序是（）。","type":"single","options":"A.\n先关冷却气，再关等离子体\nB.\n用去离子水雾化清洗后再关等离子体\nC.\n直接关闭电源\nD.\n先关辅助气，再关冷却气","body":"{\"title\":\"分析完成后，正确的关机顺序是（）。\",\"type\":\"single\",\"options\":\"A.\\n先关冷却气，再关等离子体\\nB.\\n用去离子水雾化清洗后再关等离子体\\nC.\\n直接关闭电源\\nD.\\n先关辅助气，再关冷却气\"}","rawTextBody":"{\"title\":\"分析完成后，正确的关机顺序是（）。\",\"type\":\"single\",\"options\":\"A.\\n先关冷却气，再关等离子体\\nB.\\n用去离子水雾化清洗后再关等离子体\\nC.\\n直接关闭电源\\nD.\\n先关辅助气，再关冷却气\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:45:59 [INFO] 收到题目请求: 分析完成后，正确的关机顺序是（）。... {"type":"single","hasOptions":true}
+2026-04-12 22:46:01 [INFO] 题目请求处理成功 {"title":"分析完成后，正确的关机顺序是（）。","type":"single","hasOptions":true,"answerLength":1,"duration":"2329ms","status":"success"}
+2026-04-12 22:46:01 [INFO] 答案生成成功 (2329ms): B...
+2026-04-12 22:51:22 [INFO] API请求: 题目="原子吸收谱线的半宽度主要是由自然变宽决定的。..." 类型=judgement {"title":"原子吸收谱线的半宽度主要是由自然变宽决定的。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"原子吸收谱线的半宽度主要是由自然变宽决定的。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"原子吸收谱线的半宽度主要是由自然变宽决定的。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:51:22 [INFO] 收到题目请求: 原子吸收谱线的半宽度主要是由自然变宽决定的。... {"type":"judgement","hasOptions":true}
+2026-04-12 22:51:25 [INFO] 题目请求处理成功 {"title":"原子吸收谱线的半宽度主要是由自然变宽决定的。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"3021ms","status":"success"}
+2026-04-12 22:51:25 [INFO] 答案生成成功 (3021ms): B. 错...
+2026-04-12 22:51:33 [INFO] API请求: 题目="在原子吸收分析中，加入消电离剂可抑制电离干扰，因此，消电离剂的电离电位（ ）。..." 类型=single {"title":"在原子吸收分析中，加入消电离剂可抑制电离干扰，因此，消电离剂的电离电位（ ）。","type":"single","options":"A.\n与待测元素相同 \nB.\n与待测元素相近\nC.\n比待测元素高\nD.\n比待测元素低","body":"{\"title\":\"在原子吸收分析中，加入消电离剂可抑制电离干扰，因此，消电离剂的电离电位（ ）。\",\"type\":\"single\",\"options\":\"A.\\n与待测元素相同 \\nB.\\n与待测元素相近\\nC.\\n比待测元素高\\nD.\\n比待测元素低  \"}","rawTextBody":"{\"title\":\"在原子吸收分析中，加入消电离剂可抑制电离干扰，因此，消电离剂的电离电位（ ）。\",\"type\":\"single\",\"options\":\"A.\\n与待测元素相同 \\nB.\\n与待测元素相近\\nC.\\n比待测元素高\\nD.\\n比待测元素低  \"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:51:33 [INFO] 收到题目请求: 在原子吸收分析中，加入消电离剂可抑制电离干扰，因此，消电离剂的电离电位（ ）。... {"type":"single","hasOptions":true}
+2026-04-12 22:51:35 [INFO] 题目请求处理成功 {"title":"在原子吸收分析中，加入消电离剂可抑制电离干扰，因此，消电离剂的电离电位（ ）。","type":"single","hasOptions":true,"answerLength":1,"duration":"2632ms","status":"success"}
+2026-04-12 22:51:35 [INFO] 答案生成成功 (2632ms): D...
+2026-04-12 22:51:43 [INFO] API请求: 题目="原子的核外电子受到外界能量激发，从基态跃迁到第一激发态所产生的谱线称为（ ）。..." 类型=single {"title":"原子的核外电子受到外界能量激发，从基态跃迁到第一激发态所产生的谱线称为（ ）。","type":"single","options":"A.\n共振发射线 \nB.\n共振吸收线  \nC.\n离子谱线","body":"{\"title\":\"原子的核外电子受到外界能量激发，从基态跃迁到第一激发态所产生的谱线称为（ ）。\",\"type\":\"single\",\"options\":\"A.\\n共振发射线 \\nB.\\n共振吸收线  \\nC.\\n离子谱线\"}","rawTextBody":"{\"title\":\"原子的核外电子受到外界能量激发，从基态跃迁到第一激发态所产生的谱线称为（ ）。\",\"type\":\"single\",\"options\":\"A.\\n共振发射线 \\nB.\\n共振吸收线  \\nC.\\n离子谱线\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:51:43 [INFO] 收到题目请求: 原子的核外电子受到外界能量激发，从基态跃迁到第一激发态所产生的谱线称为（ ）。... {"type":"single","hasOptions":true}
+2026-04-12 22:51:48 [INFO] 题目请求处理成功 {"title":"原子的核外电子受到外界能量激发，从基态跃迁到第一激发态所产生的谱线称为（ ）。","type":"single","hasOptions":true,"answerLength":1,"duration":"4987ms","status":"success"}
+2026-04-12 22:51:48 [INFO] 答案生成成功 (4987ms): B...
+2026-04-12 22:51:55 [INFO] API请求: 题目="用原子吸收法测定血清钙时，加入EDTA是为了消除（ ）。..." 类型=single {"title":"用原子吸收法测定血清钙时，加入EDTA是为了消除（ ）。","type":"single","options":"A.\n物理干扰\nB.\n化学干扰\nC.\n光谱干扰\nD.\n背景吸收","body":"{\"title\":\"用原子吸收法测定血清钙时，加入EDTA是为了消除（ ）。\",\"type\":\"single\",\"options\":\"A.\\n物理干扰\\nB.\\n化学干扰\\nC.\\n光谱干扰\\nD.\\n背景吸收\"}","rawTextBody":"{\"title\":\"用原子吸收法测定血清钙时，加入EDTA是为了消除（ ）。\",\"type\":\"single\",\"options\":\"A.\\n物理干扰\\nB.\\n化学干扰\\nC.\\n光谱干扰\\nD.\\n背景吸收\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:51:55 [INFO] 收到题目请求: 用原子吸收法测定血清钙时，加入EDTA是为了消除（ ）。... {"type":"single","hasOptions":true}
+2026-04-12 22:51:58 [INFO] 题目请求处理成功 {"title":"用原子吸收法测定血清钙时，加入EDTA是为了消除（ ）。","type":"single","hasOptions":true,"answerLength":1,"duration":"3128ms","status":"success"}
+2026-04-12 22:51:58 [INFO] 答案生成成功 (3128ms): B...
+2026-04-12 22:52:06 [INFO] API请求: 题目="在火焰原子化器中，雾化器的主要作用是使试液变成原子蒸气。..." 类型=judgement {"title":"在火焰原子化器中，雾化器的主要作用是使试液变成原子蒸气。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"在火焰原子化器中，雾化器的主要作用是使试液变成原子蒸气。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"在火焰原子化器中，雾化器的主要作用是使试液变成原子蒸气。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:52:06 [INFO] 收到题目请求: 在火焰原子化器中，雾化器的主要作用是使试液变成原子蒸气。... {"type":"judgement","hasOptions":true}
+2026-04-12 22:52:09 [INFO] 题目请求处理成功 {"title":"在火焰原子化器中，雾化器的主要作用是使试液变成原子蒸气。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"2547ms","status":"success"}
+2026-04-12 22:52:09 [INFO] 答案生成成功 (2547ms): B. 错...
+2026-04-12 22:52:16 [INFO] API请求: 题目="用原子吸收法测定水中铅时，光源应采用（ ）。..." 类型=single {"title":"用原子吸收法测定水中铅时，光源应采用（ ）。","type":"single","options":"A.\n钨灯     \nB.\n氘灯     \nC.\n高压汞灯\nD.\n铅元素空心阴极灯","body":"{\"title\":\"用原子吸收法测定水中铅时，光源应采用（ ）。\",\"type\":\"single\",\"options\":\"A.\\n钨灯     \\nB.\\n氘灯     \\nC.\\n高压汞灯\\nD.\\n铅元素空心阴极灯\"}","rawTextBody":"{\"title\":\"用原子吸收法测定水中铅时，光源应采用（ ）。\",\"type\":\"single\",\"options\":\"A.\\n钨灯     \\nB.\\n氘灯     \\nC.\\n高压汞灯\\nD.\\n铅元素空心阴极灯\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:52:16 [INFO] 收到题目请求: 用原子吸收法测定水中铅时，光源应采用（ ）。... {"type":"single","hasOptions":true}
+2026-04-12 22:52:19 [INFO] 题目请求处理成功 {"title":"用原子吸收法测定水中铅时，光源应采用（ ）。","type":"single","hasOptions":true,"answerLength":1,"duration":"2526ms","status":"success"}
+2026-04-12 22:52:19 [INFO] 答案生成成功 (2526ms): D...
+2026-04-12 22:52:44 [INFO] API请求: 题目="原子吸收光谱法是通过火焰中基态原子蒸气对来自光源的（ ）的吸收程度进行定量分析的。..." 类型=single {"title":"原子吸收光谱法是通过火焰中基态原子蒸气对来自光源的（ ）的吸收程度进行定量分析的。","type":"single","options":"A.\n共振发射线 \nB.\n共振吸收线  \nC.\n离子谱线","body":"{\"title\":\"原子吸收光谱法是通过火焰中基态原子蒸气对来自光源的（ ）的吸收程度进行定量分析的。\",\"type\":\"single\",\"options\":\"A.\\n共振发射线 \\nB.\\n共振吸收线  \\nC.\\n离子谱线\"}","rawTextBody":"{\"title\":\"原子吸收光谱法是通过火焰中基态原子蒸气对来自光源的（ ）的吸收程度进行定量分析的。\",\"type\":\"single\",\"options\":\"A.\\n共振发射线 \\nB.\\n共振吸收线  \\nC.\\n离子谱线\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:52:44 [INFO] 收到题目请求: 原子吸收光谱法是通过火焰中基态原子蒸气对来自光源的（ ）的吸收程度进行定量分析的。... {"type":"single","hasOptions":true}
+2026-04-12 22:52:48 [INFO] 题目请求处理成功 {"title":"原子吸收光谱法是通过火焰中基态原子蒸气对来自光源的（ ）的吸收程度进行定量分析的。","type":"single","hasOptions":true,"answerLength":1,"duration":"3403ms","status":"success"}
+2026-04-12 22:52:48 [INFO] 答案生成成功 (3403ms): A...
+2026-04-12 22:52:55 [INFO] API请求: 题目="为保证空心阴极灯所发射的特征谱线的强度，灯电流应尽可能的大。..." 类型=judgement {"title":"为保证空心阴极灯所发射的特征谱线的强度，灯电流应尽可能的大。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"为保证空心阴极灯所发射的特征谱线的强度，灯电流应尽可能的大。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"为保证空心阴极灯所发射的特征谱线的强度，灯电流应尽可能的大。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:52:55 [INFO] 收到题目请求: 为保证空心阴极灯所发射的特征谱线的强度，灯电流应尽可能的大。... {"type":"judgement","hasOptions":true}
+2026-04-12 22:52:58 [INFO] 题目请求处理成功 {"title":"为保证空心阴极灯所发射的特征谱线的强度，灯电流应尽可能的大。","type":"judgement","hasOptions":true,"answerLength":8,"duration":"2821ms","status":"success"}
+2026-04-12 22:52:58 [INFO] 答案生成成功 (2821ms): **B. 错**...
+2026-04-12 22:53:06 [INFO] API请求: 题目="原子吸收谱是由下列哪种粒子产生的（ ）。..." 类型=single {"title":"原子吸收谱是由下列哪种粒子产生的（ ）。","type":"single","options":"A.\n基态原子的外层电子\nB.\n基态原子的内层电子\nC.\n激发态原子的内层电子\nD.\n激发态原子的外层电子","body":"{\"title\":\"原子吸收谱是由下列哪种粒子产生的（ ）。\",\"type\":\"single\",\"options\":\"A.\\n基态原子的外层电子\\nB.\\n基态原子的内层电子\\nC.\\n激发态原子的内层电子\\nD.\\n激发态原子的外层电子\"}","rawTextBody":"{\"title\":\"原子吸收谱是由下列哪种粒子产生的（ ）。\",\"type\":\"single\",\"options\":\"A.\\n基态原子的外层电子\\nB.\\n基态原子的内层电子\\nC.\\n激发态原子的内层电子\\nD.\\n激发态原子的外层电子\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:53:06 [INFO] 收到题目请求: 原子吸收谱是由下列哪种粒子产生的（ ）。... {"type":"single","hasOptions":true}
+2026-04-12 22:53:11 [INFO] 题目请求处理成功 {"title":"原子吸收谱是由下列哪种粒子产生的（ ）。","type":"single","hasOptions":true,"answerLength":1,"duration":"5852ms","status":"success"}
+2026-04-12 22:53:11 [INFO] 答案生成成功 (5852ms): A...
+2026-04-12 22:53:19 [INFO] API请求: 题目="原子吸收分光光度计中单色器在原子化系统之后。..." 类型=judgement {"title":"原子吸收分光光度计中单色器在原子化系统之后。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"原子吸收分光光度计中单色器在原子化系统之后。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"原子吸收分光光度计中单色器在原子化系统之后。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:53:19 [INFO] 收到题目请求: 原子吸收分光光度计中单色器在原子化系统之后。... {"type":"judgement","hasOptions":true}
+2026-04-12 22:53:22 [INFO] 题目请求处理成功 {"title":"原子吸收分光光度计中单色器在原子化系统之后。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"3095ms","status":"success"}
+2026-04-12 22:53:22 [INFO] 答案生成成功 (3095ms): A. 对...
+2026-04-12 22:53:30 [INFO] API请求: 题目="原子吸收测定中，基态原子数可以代表待测元素的总原子数。..." 类型=judgement {"title":"原子吸收测定中，基态原子数可以代表待测元素的总原子数。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"原子吸收测定中，基态原子数可以代表待测元素的总原子数。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"原子吸收测定中，基态原子数可以代表待测元素的总原子数。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:53:30 [INFO] 收到题目请求: 原子吸收测定中，基态原子数可以代表待测元素的总原子数。... {"type":"judgement","hasOptions":true}
+2026-04-12 22:53:32 [INFO] 题目请求处理成功 {"title":"原子吸收测定中，基态原子数可以代表待测元素的总原子数。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"2907ms","status":"success"}
+2026-04-12 22:53:32 [INFO] 答案生成成功 (2907ms): A. 对...
+2026-04-12 22:53:40 [INFO] API请求: 题目="当用火焰原子吸收光谱法测定电离电位6 eV的元素时，通常会因为部分基态原子的电离而使吸光度测量产生误..." 类型=single {"title":"当用火焰原子吸收光谱法测定电离电位6 eV的元素时，通常会因为部分基态原子的电离而使吸光度测量产生误差，这种干扰因素称为（ ）。","type":"single","options":"A.\n光谱干扰\nB.\n化学干扰\nC.\n物理干扰","body":"{\"title\":\"当用火焰原子吸收光谱法测定电离电位6 eV的元素时，通常会因为部分基态原子的电离而使吸光度测量产生误差，这种干扰因素称为（ ）。\",\"type\":\"single\",\"options\":\"A.\\n光谱干扰\\nB.\\n化学干扰\\nC.\\n物理干扰\"}","rawTextBody":"{\"title\":\"当用火焰原子吸收光谱法测定电离电位6 eV的元素时，通常会因为部分基态原子的电离而使吸光度测量产生误差，这种干扰因素称为（ ）。\",\"type\":\"single\",\"options\":\"A.\\n光谱干扰\\nB.\\n化学干扰\\nC.\\n物理干扰\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 22:53:40 [INFO] 收到题目请求: 当用火焰原子吸收光谱法测定电离电位6 eV的元素时，通常会因为部分基态原子的电离而使吸光度测量产生误... {"type":"single","hasOptions":true}
+2026-04-12 22:53:43 [INFO] 题目请求处理成功 {"title":"当用火焰原子吸收光谱法测定电离电位6 eV的元素时，通常会因为部分基态原子的电离而使吸光度测量产生误差，这种干扰因素称为（ ）。","type":"single","hasOptions":true,"answerLength":7,"duration":"3234ms","status":"success"}
+2026-04-12 22:53:43 [INFO] 答案生成成功 (3234ms): B. 化学干扰...
+2026-04-12 23:18:11 [INFO] API请求: 题目="用测量峰值吸收来代替积分吸收的方法必须满足的条件是（ ）。..." 类型=multiple {"title":"用测量峰值吸收来代替积分吸收的方法必须满足的条件是（ ）。","type":"multiple","options":"A\n发射线的中心频率与吸收线中心频率重合\nB\n发射线的半宽度小于吸收线的半宽度 \nC\n发射线轮廓小于吸收线轮廓\nD\n发射线轮廓大于吸收线轮廓","body":"{\"title\":\"用测量峰值吸收来代替积分吸收的方法必须满足的条件是（ ）。\",\"type\":\"multiple\",\"options\":\"A\\n发射线的中心频率与吸收线中心频率重合\\nB\\n发射线的半宽度小于吸收线的半宽度 \\nC\\n发射线轮廓小于吸收线轮廓\\nD\\n发射线轮廓大于吸收线轮廓\"}","rawTextBody":"{\"title\":\"用测量峰值吸收来代替积分吸收的方法必须满足的条件是（ ）。\",\"type\":\"multiple\",\"options\":\"A\\n发射线的中心频率与吸收线中心频率重合\\nB\\n发射线的半宽度小于吸收线的半宽度 \\nC\\n发射线轮廓小于吸收线轮廓\\nD\\n发射线轮廓大于吸收线轮廓\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:18:11 [INFO] 收到题目请求: 用测量峰值吸收来代替积分吸收的方法必须满足的条件是（ ）。... {"type":"multiple","hasOptions":true}
+2026-04-12 23:18:13 [INFO] 题目请求处理成功 {"title":"用测量峰值吸收来代替积分吸收的方法必须满足的条件是（ ）。","type":"multiple","hasOptions":true,"answerLength":3,"duration":"2258ms","status":"success"}
+2026-04-12 23:18:13 [INFO] 答案生成成功 (2258ms): ABC...
+2026-04-12 23:18:23 [INFO] API请求: 题目="原子吸收实验中，为校准仪器漂移，通常应（ ）。..." 类型=single {"title":"原子吸收实验中，为校准仪器漂移，通常应（ ）。","type":"single","options":"A.\n每测定10个样品后重测一次空白\nB.\n每批次样品插入标准品监控\nC.\n实时使用内标法\nD.\n每次开机后只做一次标准曲线","body":"{\"title\":\"原子吸收实验中，为校准仪器漂移，通常应（ ）。\",\"type\":\"single\",\"options\":\"A.\\n每测定10个样品后重测一次空白\\nB.\\n每批次样品插入标准品监控\\nC.\\n实时使用内标法\\nD.\\n每次开机后只做一次标准曲线\"}","rawTextBody":"{\"title\":\"原子吸收实验中，为校准仪器漂移，通常应（ ）。\",\"type\":\"single\",\"options\":\"A.\\n每测定10个样品后重测一次空白\\nB.\\n每批次样品插入标准品监控\\nC.\\n实时使用内标法\\nD.\\n每次开机后只做一次标准曲线\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:18:23 [INFO] 收到题目请求: 原子吸收实验中，为校准仪器漂移，通常应（ ）。... {"type":"single","hasOptions":true}
+2026-04-12 23:18:26 [INFO] 题目请求处理成功 {"title":"原子吸收实验中，为校准仪器漂移，通常应（ ）。","type":"single","hasOptions":true,"answerLength":1,"duration":"3264ms","status":"success"}
+2026-04-12 23:18:26 [INFO] 答案生成成功 (3264ms): B...
+2026-04-12 23:18:34 [INFO] API请求: 题目="原子吸收测定中，样品进样量越大，灵敏度越高。..." 类型=judgement {"title":"原子吸收测定中，样品进样量越大，灵敏度越高。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"原子吸收测定中，样品进样量越大，灵敏度越高。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"原子吸收测定中，样品进样量越大，灵敏度越高。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:18:34 [INFO] 收到题目请求: 原子吸收测定中，样品进样量越大，灵敏度越高。... {"type":"judgement","hasOptions":true}
+2026-04-12 23:18:36 [INFO] 题目请求处理成功 {"title":"原子吸收测定中，样品进样量越大，灵敏度越高。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"2540ms","status":"success"}
+2026-04-12 23:18:36 [INFO] 答案生成成功 (2540ms): B. 错...
+2026-04-12 23:18:44 [INFO] API请求: 题目="石墨炉原子化过程中，灰化阶段的主要作用是去除有机物和易挥发基体。..." 类型=judgement {"title":"石墨炉原子化过程中，灰化阶段的主要作用是去除有机物和易挥发基体。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"石墨炉原子化过程中，灰化阶段的主要作用是去除有机物和易挥发基体。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"石墨炉原子化过程中，灰化阶段的主要作用是去除有机物和易挥发基体。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:18:44 [INFO] 收到题目请求: 石墨炉原子化过程中，灰化阶段的主要作用是去除有机物和易挥发基体。... {"type":"judgement","hasOptions":true}
+2026-04-12 23:18:47 [INFO] 题目请求处理成功 {"title":"石墨炉原子化过程中，灰化阶段的主要作用是去除有机物和易挥发基体。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"2830ms","status":"success"}
+2026-04-12 23:18:47 [INFO] 答案生成成功 (2830ms): A. 对...
+2026-04-12 23:18:54 [INFO] API请求: 题目="标准曲线法适用于所有原子吸收定量分析，无需考虑基体效应。..." 类型=judgement {"title":"标准曲线法适用于所有原子吸收定量分析，无需考虑基体效应。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"标准曲线法适用于所有原子吸收定量分析，无需考虑基体效应。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"标准曲线法适用于所有原子吸收定量分析，无需考虑基体效应。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:18:54 [INFO] 收到题目请求: 标准曲线法适用于所有原子吸收定量分析，无需考虑基体效应。... {"type":"judgement","hasOptions":true}
+2026-04-12 23:18:57 [INFO] 题目请求处理成功 {"title":"标准曲线法适用于所有原子吸收定量分析，无需考虑基体效应。","type":"judgement","hasOptions":true,"answerLength":8,"duration":"2799ms","status":"success"}
+2026-04-12 23:18:57 [INFO] 答案生成成功 (2799ms): **B. 错**...
+2026-04-12 23:19:04 [INFO] API请求: 题目="在测定高盐样品（如海水）中的微量金属时，为减少背景吸收，宜采用（ ）。..." 类型=single {"title":"在测定高盐样品（如海水）中的微量金属时，为减少背景吸收，宜采用（ ）。","type":"single","options":"A.\n标准加入法\nB.\n氘灯背景校正\nC.\n塞曼背景校正\nD.\n加入基体改进剂","body":"{\"title\":\"在测定高盐样品（如海水）中的微量金属时，为减少背景吸收，宜采用（ ）。\",\"type\":\"single\",\"options\":\"A.\\n标准加入法\\nB.\\n氘灯背景校正\\nC.\\n塞曼背景校正\\nD.\\n加入基体改进剂\"}","rawTextBody":"{\"title\":\"在测定高盐样品（如海水）中的微量金属时，为减少背景吸收，宜采用（ ）。\",\"type\":\"single\",\"options\":\"A.\\n标准加入法\\nB.\\n氘灯背景校正\\nC.\\n塞曼背景校正\\nD.\\n加入基体改进剂\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:19:04 [INFO] 收到题目请求: 在测定高盐样品（如海水）中的微量金属时，为减少背景吸收，宜采用（ ）。... {"type":"single","hasOptions":true}
+2026-04-12 23:19:07 [INFO] 题目请求处理成功 {"title":"在测定高盐样品（如海水）中的微量金属时，为减少背景吸收，宜采用（ ）。","type":"single","hasOptions":true,"answerLength":1,"duration":"2817ms","status":"success"}
+2026-04-12 23:19:07 [INFO] 答案生成成功 (2817ms): C...
+2026-04-12 23:20:30 [INFO] API请求: 题目="原子吸收分析中，若标准曲线在低浓度区间呈现弯曲，可能的原因是（ ）。..." 类型=single {"title":"原子吸收分析中，若标准曲线在低浓度区间呈现弯曲，可能的原因是（ ）。","type":"single","options":"A.\n光源强度不稳定\nB.\n样品中存在化学干扰\nC.\n检测器响应非线性\nD.\n原子化效率不一致","body":"{\"title\":\"原子吸收分析中，若标准曲线在低浓度区间呈现弯曲，可能的原因是（ ）。\",\"type\":\"single\",\"options\":\"A.\\n光源强度不稳定\\nB.\\n样品中存在化学干扰\\nC.\\n检测器响应非线性\\nD.\\n原子化效率不一致\"}","rawTextBody":"{\"title\":\"原子吸收分析中，若标准曲线在低浓度区间呈现弯曲，可能的原因是（ ）。\",\"type\":\"single\",\"options\":\"A.\\n光源强度不稳定\\nB.\\n样品中存在化学干扰\\nC.\\n检测器响应非线性\\nD.\\n原子化效率不一致\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:20:30 [INFO] 收到题目请求: 原子吸收分析中，若标准曲线在低浓度区间呈现弯曲，可能的原因是（ ）。... {"type":"single","hasOptions":true}
+2026-04-12 23:20:34 [INFO] 题目请求处理成功 {"title":"原子吸收分析中，若标准曲线在低浓度区间呈现弯曲，可能的原因是（ ）。","type":"single","hasOptions":true,"answerLength":1,"duration":"3785ms","status":"success"}
+2026-04-12 23:20:34 [INFO] 答案生成成功 (3785ms): B...
+2026-04-12 23:20:41 [INFO] API请求: 题目="在石墨炉原子化过程中，干燥阶段的温度应设定为略高于溶剂的沸点。..." 类型=judgement {"title":"在石墨炉原子化过程中，干燥阶段的温度应设定为略高于溶剂的沸点。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"在石墨炉原子化过程中，干燥阶段的温度应设定为略高于溶剂的沸点。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"在石墨炉原子化过程中，干燥阶段的温度应设定为略高于溶剂的沸点。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:20:41 [INFO] 收到题目请求: 在石墨炉原子化过程中，干燥阶段的温度应设定为略高于溶剂的沸点。... {"type":"judgement","hasOptions":true}
+2026-04-12 23:20:45 [INFO] 题目请求处理成功 {"title":"在石墨炉原子化过程中，干燥阶段的温度应设定为略高于溶剂的沸点。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"3406ms","status":"success"}
+2026-04-12 23:20:45 [INFO] 答案生成成功 (3406ms): A. 对...
+2026-04-12 23:20:56 [INFO] API请求: 题目="在原子吸收光谱法中，样品溶液的酸度对测定结果没有影响。..." 类型=judgement {"title":"在原子吸收光谱法中，样品溶液的酸度对测定结果没有影响。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\" 在原子吸收光谱法中，样品溶液的酸度对测定结果没有影响。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\" 在原子吸收光谱法中，样品溶液的酸度对测定结果没有影响。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:20:56 [INFO] 收到题目请求: 在原子吸收光谱法中，样品溶液的酸度对测定结果没有影响。... {"type":"judgement","hasOptions":true}
+2026-04-12 23:20:58 [INFO] 题目请求处理成功 {"title":"在原子吸收光谱法中，样品溶液的酸度对测定结果没有影响。","type":"judgement","hasOptions":true,"answerLength":8,"duration":"2670ms","status":"success"}
+2026-04-12 23:20:58 [INFO] 答案生成成功 (2670ms): **B. 错**...
+2026-04-12 23:21:10 [INFO] API请求: 题目="在测定易挥发元素（如汞、砷）时，宜采用的原子化方式是（ ）。..." 类型=single {"title":"在测定易挥发元素（如汞、砷）时，宜采用的原子化方式是（ ）。","type":"single","options":"A.\n富燃火焰\nB.\n石墨炉原子化\nC.\n冷蒸气原子化\nD.\n氧化亚氮-乙炔火焰","body":"{\"title\":\"在测定易挥发元素（如汞、砷）时，宜采用的原子化方式是（ ）。\",\"type\":\"single\",\"options\":\"A.\\n富燃火焰\\nB.\\n石墨炉原子化\\nC.\\n冷蒸气原子化\\nD.\\n氧化亚氮-乙炔火焰\"}","rawTextBody":"{\"title\":\"在测定易挥发元素（如汞、砷）时，宜采用的原子化方式是（ ）。\",\"type\":\"single\",\"options\":\"A.\\n富燃火焰\\nB.\\n石墨炉原子化\\nC.\\n冷蒸气原子化\\nD.\\n氧化亚氮-乙炔火焰\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:21:10 [INFO] 收到题目请求: 在测定易挥发元素（如汞、砷）时，宜采用的原子化方式是（ ）。... {"type":"single","hasOptions":true}
+2026-04-12 23:21:13 [INFO] 题目请求处理成功 {"title":"在测定易挥发元素（如汞、砷）时，宜采用的原子化方式是（ ）。","type":"single","hasOptions":true,"answerLength":1,"duration":"2665ms","status":"success"}
+2026-04-12 23:21:13 [INFO] 答案生成成功 (2665ms): C...
+2026-04-12 23:21:47 [INFO] API请求: 题目="任何情况下，待测元素的分析线一定要选择其最为灵敏的共振发射线。..." 类型=judgement {"title":"任何情况下，待测元素的分析线一定要选择其最为灵敏的共振发射线。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"任何情况下，待测元素的分析线一定要选择其最为灵敏的共振发射线。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"任何情况下，待测元素的分析线一定要选择其最为灵敏的共振发射线。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:21:47 [INFO] 收到题目请求: 任何情况下，待测元素的分析线一定要选择其最为灵敏的共振发射线。... {"type":"judgement","hasOptions":true}
+2026-04-12 23:21:54 [INFO] 题目请求处理成功 {"title":"任何情况下，待测元素的分析线一定要选择其最为灵敏的共振发射线。","type":"judgement","hasOptions":true,"answerLength":8,"duration":"6752ms","status":"success"}
+2026-04-12 23:21:54 [INFO] 答案生成成功 (6752ms): **B. 错**...
+2026-04-12 23:22:02 [INFO] API请求: 题目="石墨炉原子吸收法中，通常使用氩气作为保护气和载气，因其惰性可防止氧化干扰。..." 类型=judgement {"title":"石墨炉原子吸收法中，通常使用氩气作为保护气和载气，因其惰性可防止氧化干扰。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"石墨炉原子吸收法中，通常使用氩气作为保护气和载气，因其惰性可防止氧化干扰。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"石墨炉原子吸收法中，通常使用氩气作为保护气和载气，因其惰性可防止氧化干扰。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:22:02 [INFO] 收到题目请求: 石墨炉原子吸收法中，通常使用氩气作为保护气和载气，因其惰性可防止氧化干扰。... {"type":"judgement","hasOptions":true}
+2026-04-12 23:22:04 [INFO] 题目请求处理成功 {"title":"石墨炉原子吸收法中，通常使用氩气作为保护气和载气，因其惰性可防止氧化干扰。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"2485ms","status":"success"}
+2026-04-12 23:22:04 [INFO] 答案生成成功 (2485ms): A. 对...
+2026-04-12 23:23:02 [INFO] API请求: 题目="石墨炉原子吸收分析中，每个样品测定后都应执行一次空烧程序，以清洁石墨管。..." 类型=judgement {"title":"石墨炉原子吸收分析中，每个样品测定后都应执行一次空烧程序，以清洁石墨管。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"石墨炉原子吸收分析中，每个样品测定后都应执行一次空烧程序，以清洁石墨管。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"石墨炉原子吸收分析中，每个样品测定后都应执行一次空烧程序，以清洁石墨管。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:23:02 [INFO] 收到题目请求: 石墨炉原子吸收分析中，每个样品测定后都应执行一次空烧程序，以清洁石墨管。... {"type":"judgement","hasOptions":true}
+2026-04-12 23:23:06 [INFO] 题目请求处理成功 {"title":"石墨炉原子吸收分析中，每个样品测定后都应执行一次空烧程序，以清洁石墨管。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"3401ms","status":"success"}
+2026-04-12 23:23:06 [INFO] 答案生成成功 (3401ms): A. 对...
+2026-04-12 23:30:31 [INFO] API请求: 题目="离子源中灯丝的作用为下列哪个？（ ）..." 类型=single {"title":"离子源中灯丝的作用为下列哪个？（ ）","type":"single","options":"A.\n加热样品\nB.\n照亮电离室\nC.\n产生电子\nD.\n以上都不是","body":"{\"title\":\"离子源中灯丝的作用为下列哪个？（ ）\",\"type\":\"single\",\"options\":\"A.\\n加热样品\\nB.\\n照亮电离室\\nC.\\n产生电子\\nD.\\n以上都不是   \"}","rawTextBody":"{\"title\":\"离子源中灯丝的作用为下列哪个？（ ）\",\"type\":\"single\",\"options\":\"A.\\n加热样品\\nB.\\n照亮电离室\\nC.\\n产生电子\\nD.\\n以上都不是   \"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:30:31 [INFO] 收到题目请求: 离子源中灯丝的作用为下列哪个？（ ）... {"type":"single","hasOptions":true}
+2026-04-12 23:30:34 [INFO] 题目请求处理成功 {"title":"离子源中灯丝的作用为下列哪个？（ ）","type":"single","hasOptions":true,"answerLength":1,"duration":"3058ms","status":"success"}
+2026-04-12 23:30:34 [INFO] 答案生成成功 (3058ms): C...
+2026-04-12 23:30:41 [INFO] API请求: 题目="用质谱法分析无机材料时，宜采用下述哪一种或几种电离源? （ ）..." 类型=single {"title":"用质谱法分析无机材料时，宜采用下述哪一种或几种电离源? （ ）","type":"single","options":"A.\n化学电离源\nB.\n电子轰击源\nC.\n高频火花源\nD.\nB或C","body":"{\"title\":\"用质谱法分析无机材料时，宜采用下述哪一种或几种电离源? （ ）\",\"type\":\"single\",\"options\":\"A.\\n化学电离源\\nB.\\n电子轰击源\\nC.\\n高频火花源\\nD.\\nB或C   \"}","rawTextBody":"{\"title\":\"用质谱法分析无机材料时，宜采用下述哪一种或几种电离源? （ ）\",\"type\":\"single\",\"options\":\"A.\\n化学电离源\\nB.\\n电子轰击源\\nC.\\n高频火花源\\nD.\\nB或C   \"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:30:41 [INFO] 收到题目请求: 用质谱法分析无机材料时，宜采用下述哪一种或几种电离源? （ ）... {"type":"single","hasOptions":true}
+2026-04-12 23:30:45 [INFO] 题目请求处理成功 {"title":"用质谱法分析无机材料时，宜采用下述哪一种或几种电离源? （ ）","type":"single","hasOptions":true,"answerLength":1,"duration":"3507ms","status":"success"}
+2026-04-12 23:30:45 [INFO] 答案生成成功 (3507ms): C...
+2026-04-12 23:30:52 [INFO] API请求: 题目="在GC-MS系统中，气相色谱（GC）部件的主要作用是根据化合物分子量的大小进行分离，而质谱（MS）部..." 类型=judgement {"title":"在GC-MS系统中，气相色谱（GC）部件的主要作用是根据化合物分子量的大小进行分离，而质谱（MS）部件的主要作用是根据化合物的沸点和极性差异进行鉴定。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"在GC-MS系统中，气相色谱（GC）部件的主要作用是根据化合物分子量的大小进行分离，而质谱（MS）部件的主要作用是根据化合物的沸点和极性差异进行鉴定。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"在GC-MS系统中，气相色谱（GC）部件的主要作用是根据化合物分子量的大小进行分离，而质谱（MS）部件的主要作用是根据化合物的沸点和极性差异进行鉴定。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:30:52 [INFO] 收到题目请求: 在GC-MS系统中，气相色谱（GC）部件的主要作用是根据化合物分子量的大小进行分离，而质谱（MS）部... {"type":"judgement","hasOptions":true}
+2026-04-12 23:30:55 [INFO] 题目请求处理成功 {"title":"在GC-MS系统中，气相色谱（GC）部件的主要作用是根据化合物分子量的大小进行分离，而质谱（MS）部件的主要作用是根据化合物的沸点和极性差异进行鉴定。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"2340ms","status":"success"}
+2026-04-12 23:30:55 [INFO] 答案生成成功 (2340ms): B. 错...
+2026-04-12 23:31:02 [INFO] API请求: 题目="全扫描模式（scan）时，以下哪种方式一定可以增大单位时间内的扫描次数（scan/sec）（ ）。..." 类型=single {"title":"全扫描模式（scan）时，以下哪种方式一定可以增大单位时间内的扫描次数（scan/sec）（ ）。","type":"single","options":"A.\n增大质量范围（Mass Range）；增大采样频率（Sampling Rate）\nB.\n增大质量范围（Mass Range）减少采样频率（Sampling Rate）\nC.\n减少质量范围（Mass Range）；增大采样频率（Sampling Rate）\nD.\n减少质量范围（Mass Range）；减少采样频率（Sampling Rate）","body":"{\"title\":\"全扫描模式（scan）时，以下哪种方式一定可以增大单位时间内的扫描次数（scan/sec）（ ）。\",\"type\":\"single\",\"options\":\"A.\\n增大质量范围（Mass Range）；增大采样频率（Sampling Rate）\\nB.\\n增大质量范围（Mass Range）减少采样频率（Sampling Rate）\\nC.\\n减少质量范围（Mass Range）；增大采样频率（Sampling Rate）\\nD.\\n减少质量范围（Mass Range）；减少采样频率（Sampling Rate）\"}","rawTextBody":"{\"title\":\"全扫描模式（scan）时，以下哪种方式一定可以增大单位时间内的扫描次数（scan/sec）（ ）。\",\"type\":\"single\",\"options\":\"A.\\n增大质量范围（Mass Range）；增大采样频率（Sampling Rate）\\nB.\\n增大质量范围（Mass Range）减少采样频率（Sampling Rate）\\nC.\\n减少质量范围（Mass Range）；增大采样频率（Sampling Rate）\\nD.\\n减少质量范围（Mass Range）；减少采样频率（Sampling Rate）\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:31:02 [INFO] 收到题目请求: 全扫描模式（scan）时，以下哪种方式一定可以增大单位时间内的扫描次数（scan/sec）（ ）。... {"type":"single","hasOptions":true}
+2026-04-12 23:31:05 [INFO] 题目请求处理成功 {"title":"全扫描模式（scan）时，以下哪种方式一定可以增大单位时间内的扫描次数（scan/sec）（ ）。","type":"single","hasOptions":true,"answerLength":1,"duration":"2424ms","status":"success"}
+2026-04-12 23:31:05 [INFO] 答案生成成功 (2424ms): C...
+2026-04-12 23:31:12 [INFO] API请求: 题目="以下哪个部件不是离子源部件？（ ）..." 类型=single {"title":"以下哪个部件不是离子源部件？（ ）","type":"single","options":"A.\n入口透镜\nB.\n拉出极\nC.\n推斥极\nD.\n电子倍增管","body":"{\"title\":\"以下哪个部件不是离子源部件？（ ）\",\"type\":\"single\",\"options\":\"A.\\n入口透镜\\nB.\\n拉出极\\nC.\\n推斥极\\nD.\\n电子倍增管  \"}","rawTextBody":"{\"title\":\"以下哪个部件不是离子源部件？（ ）\",\"type\":\"single\",\"options\":\"A.\\n入口透镜\\nB.\\n拉出极\\nC.\\n推斥极\\nD.\\n电子倍增管  \"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:31:12 [INFO] 收到题目请求: 以下哪个部件不是离子源部件？（ ）... {"type":"single","hasOptions":true}
+2026-04-12 23:31:15 [INFO] 题目请求处理成功 {"title":"以下哪个部件不是离子源部件？（ ）","type":"single","hasOptions":true,"answerLength":1,"duration":"2589ms","status":"success"}
+2026-04-12 23:31:15 [INFO] 答案生成成功 (2589ms): D...
+2026-04-12 23:31:22 [INFO] API请求: 题目="调机过程中发现RF线在高质量区有平台，则需要旋转RF旋钮，直到观察到光滑斜线，并继续调节RF旋钮直至..." 类型=judgement {"title":"调机过程中发现RF线在高质量区有平台，则需要旋转RF旋钮，直到观察到光滑斜线，并继续调节RF旋钮直至Highest达到最大值。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"调机过程中发现RF线在高质量区有平台，则需要旋转RF旋钮，直到观察到光滑斜线，并继续调节RF旋钮直至Highest达到最大值。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"调机过程中发现RF线在高质量区有平台，则需要旋转RF旋钮，直到观察到光滑斜线，并继续调节RF旋钮直至Highest达到最大值。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:31:22 [INFO] 收到题目请求: 调机过程中发现RF线在高质量区有平台，则需要旋转RF旋钮，直到观察到光滑斜线，并继续调节RF旋钮直至... {"type":"judgement","hasOptions":true}
+2026-04-12 23:31:25 [INFO] 题目请求处理成功 {"title":"调机过程中发现RF线在高质量区有平台，则需要旋转RF旋钮，直到观察到光滑斜线，并继续调节RF旋钮直至Highest达到最大值。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"2604ms","status":"success"}
+2026-04-12 23:31:25 [INFO] 答案生成成功 (2604ms): A. 对...
+2026-04-12 23:32:15 [INFO] API请求: 题目="在磁场强度保持恒定，而加速电压逐渐增加的质谱仪中，最先通过固定的收集器狭缝的是（ ）。..." 类型=single {"title":"在磁场强度保持恒定，而加速电压逐渐增加的质谱仪中，最先通过固定的收集器狭缝的是（ ）。","type":"single","options":"A.\n质荷比最低的正离子\nB.\n质量最高的负离子\nC.\n质荷比最高的正离子\nD.\n质量最低的负离子","body":"{\"title\":\"在磁场强度保持恒定，而加速电压逐渐增加的质谱仪中，最先通过固定的收集器狭缝的是（ ）。\",\"type\":\"single\",\"options\":\"A.\\n质荷比最低的正离子\\nB.\\n质量最高的负离子\\nC.\\n质荷比最高的正离子\\nD.\\n质量最低的负离子 \"}","rawTextBody":"{\"title\":\"在磁场强度保持恒定，而加速电压逐渐增加的质谱仪中，最先通过固定的收集器狭缝的是（ ）。\",\"type\":\"single\",\"options\":\"A.\\n质荷比最低的正离子\\nB.\\n质量最高的负离子\\nC.\\n质荷比最高的正离子\\nD.\\n质量最低的负离子 \"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:32:15 [INFO] 收到题目请求: 在磁场强度保持恒定，而加速电压逐渐增加的质谱仪中，最先通过固定的收集器狭缝的是（ ）。... {"type":"single","hasOptions":true}
+2026-04-12 23:32:17 [INFO] 题目请求处理成功 {"title":"在磁场强度保持恒定，而加速电压逐渐增加的质谱仪中，最先通过固定的收集器狭缝的是（ ）。","type":"single","hasOptions":true,"answerLength":1,"duration":"2853ms","status":"success"}
+2026-04-12 23:32:17 [INFO] 答案生成成功 (2853ms): A...
+2026-04-12 23:32:23 [INFO] API请求: 题目="调机过程中发现RF线在高质量区有平台，则需要旋转RF旋钮，直到观察到光滑斜线，并继续调节RF旋钮直至..." 类型=judgement {"title":"调机过程中发现RF线在高质量区有平台，则需要旋转RF旋钮，直到观察到光滑斜线，并继续调节RF旋钮直至Highest达到最大值。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"调机过程中发现RF线在高质量区有平台，则需要旋转RF旋钮，直到观察到光滑斜线，并继续调节RF旋钮直至Highest达到最大值。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"调机过程中发现RF线在高质量区有平台，则需要旋转RF旋钮，直到观察到光滑斜线，并继续调节RF旋钮直至Highest达到最大值。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:32:23 [INFO] 收到题目请求: 调机过程中发现RF线在高质量区有平台，则需要旋转RF旋钮，直到观察到光滑斜线，并继续调节RF旋钮直至... {"type":"judgement","hasOptions":true}
+2026-04-12 23:32:26 [INFO] 题目请求处理成功 {"title":"调机过程中发现RF线在高质量区有平台，则需要旋转RF旋钮，直到观察到光滑斜线，并继续调节RF旋钮直至Highest达到最大值。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"2890ms","status":"success"}
+2026-04-12 23:32:26 [INFO] 答案生成成功 (2890ms): A. 对...
+2026-04-12 23:32:31 [INFO] API请求: 题目="气质联用仪适合检测一些不易挥发、热稳定性好的化合物。..." 类型=judgement {"title":"气质联用仪适合检测一些不易挥发、热稳定性好的化合物。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"气质联用仪适合检测一些不易挥发、热稳定性好的化合物。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"气质联用仪适合检测一些不易挥发、热稳定性好的化合物。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:32:31 [INFO] 收到题目请求: 气质联用仪适合检测一些不易挥发、热稳定性好的化合物。... {"type":"judgement","hasOptions":true}
+2026-04-12 23:32:34 [INFO] 题目请求处理成功 {"title":"气质联用仪适合检测一些不易挥发、热稳定性好的化合物。","type":"judgement","hasOptions":true,"answerLength":8,"duration":"2740ms","status":"success"}
+2026-04-12 23:32:34 [INFO] 答案生成成功 (2740ms): **B. 错**...
+2026-04-12 23:32:39 [INFO] API请求: 题目="直链烷烃的特征是质谱图中碎片离子的质量数间隔为多少？（ ）..." 类型=single {"title":"直链烷烃的特征是质谱图中碎片离子的质量数间隔为多少？（ ）","type":"single","options":"A.\n12 amu\nB.\n14 amu\nC.\n16 amu\nD.\n以上都不是","body":"{\"title\":\"直链烷烃的特征是质谱图中碎片离子的质量数间隔为多少？（ ）\",\"type\":\"single\",\"options\":\"A.\\n12 amu\\nB.\\n14 amu\\nC.\\n16 amu\\nD.\\n以上都不是   \"}","rawTextBody":"{\"title\":\"直链烷烃的特征是质谱图中碎片离子的质量数间隔为多少？（ ）\",\"type\":\"single\",\"options\":\"A.\\n12 amu\\nB.\\n14 amu\\nC.\\n16 amu\\nD.\\n以上都不是   \"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:32:39 [INFO] 收到题目请求: 直链烷烃的特征是质谱图中碎片离子的质量数间隔为多少？（ ）... {"type":"single","hasOptions":true}
+2026-04-12 23:32:42 [INFO] 题目请求处理成功 {"title":"直链烷烃的特征是质谱图中碎片离子的质量数间隔为多少？（ ）","type":"single","hasOptions":true,"answerLength":13,"duration":"3112ms","status":"success"}
+2026-04-12 23:32:42 [INFO] 答案生成成功 (3112ms): **B. 14 amu**...
+2026-04-12 23:32:48 [INFO] API请求: 题目="质谱中强度最大的峰就是分子离子峰。..." 类型=judgement {"title":"质谱中强度最大的峰就是分子离子峰。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"质谱中强度最大的峰就是分子离子峰。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"质谱中强度最大的峰就是分子离子峰。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:32:48 [INFO] 收到题目请求: 质谱中强度最大的峰就是分子离子峰。... {"type":"judgement","hasOptions":true}
+2026-04-12 23:32:50 [INFO] 题目请求处理成功 {"title":"质谱中强度最大的峰就是分子离子峰。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"2748ms","status":"success"}
+2026-04-12 23:32:50 [INFO] 答案生成成功 (2748ms): B. 错...
+2026-04-12 23:32:56 [INFO] API请求: 题目="质谱扫描，是如何进行的？（ ）..." 类型=single {"title":"质谱扫描，是如何进行的？（ ）","type":"single","options":"A.\n从低质量端向高质量端扫描\nB.\n从高质量端到低质量端扫描 \nC.\n从中间质量向两边质量端扫描\nD.\n从两端质量端向中间质量端扫描","body":"{\"title\":\"质谱扫描，是如何进行的？（ ）\",\"type\":\"single\",\"options\":\"A.\\n从低质量端向高质量端扫描\\nB.\\n从高质量端到低质量端扫描 \\nC.\\n从中间质量向两边质量端扫描\\nD.\\n从两端质量端向中间质量端扫描\"}","rawTextBody":"{\"title\":\"质谱扫描，是如何进行的？（ ）\",\"type\":\"single\",\"options\":\"A.\\n从低质量端向高质量端扫描\\nB.\\n从高质量端到低质量端扫描 \\nC.\\n从中间质量向两边质量端扫描\\nD.\\n从两端质量端向中间质量端扫描\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:32:56 [INFO] 收到题目请求: 质谱扫描，是如何进行的？（ ）... {"type":"single","hasOptions":true}
+2026-04-12 23:33:00 [INFO] 题目请求处理成功 {"title":"质谱扫描，是如何进行的？（ ）","type":"single","hasOptions":true,"answerLength":1,"duration":"3242ms","status":"success"}
+2026-04-12 23:33:00 [INFO] 答案生成成功 (3242ms): A...
+2026-04-12 23:34:08 [INFO] API请求: 题目="如诊断时在Ionization time 处显示Filament1 （open），则表示灯丝正常。..." 类型=judgement {"title":"如诊断时在Ionization time 处显示Filament1 （open），则表示灯丝正常。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"如诊断时在Ionization time 处显示Filament1 （open），则表示灯丝正常。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"如诊断时在Ionization time 处显示Filament1 （open），则表示灯丝正常。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:34:08 [INFO] 收到题目请求: 如诊断时在Ionization time 处显示Filament1 （open），则表示灯丝正常。... {"type":"judgement","hasOptions":true}
+2026-04-12 23:34:11 [INFO] 题目请求处理成功 {"title":"如诊断时在Ionization time 处显示Filament1 （open），则表示灯丝正常。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"3215ms","status":"success"}
+2026-04-12 23:34:11 [INFO] 答案生成成功 (3215ms): B. 错...
+2026-04-12 23:34:16 [INFO] API请求: 题目="气相色谱分析用归一化法定量的条件是样品中（ ）都要流出色谱柱，且在所用检测器上能产生信号。..." 类型=single {"title":"气相色谱分析用归一化法定量的条件是样品中（ ）都要流出色谱柱，且在所用检测器上能产生信号。","type":"single","options":"A.\n所有组分\nB.\n需检测的组分","body":"{\"title\":\"气相色谱分析用归一化法定量的条件是样品中（ ）都要流出色谱柱，且在所用检测器上能产生信号。\",\"type\":\"single\",\"options\":\"A.\\n所有组分\\nB.\\n需检测的组分\"}","rawTextBody":"{\"title\":\"气相色谱分析用归一化法定量的条件是样品中（ ）都要流出色谱柱，且在所用检测器上能产生信号。\",\"type\":\"single\",\"options\":\"A.\\n所有组分\\nB.\\n需检测的组分\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:34:16 [INFO] 收到题目请求: 气相色谱分析用归一化法定量的条件是样品中（ ）都要流出色谱柱，且在所用检测器上能产生信号。... {"type":"single","hasOptions":true}
+2026-04-12 23:34:19 [INFO] 题目请求处理成功 {"title":"气相色谱分析用归一化法定量的条件是样品中（ ）都要流出色谱柱，且在所用检测器上能产生信号。","type":"single","hasOptions":true,"answerLength":1,"duration":"2760ms","status":"success"}
+2026-04-12 23:34:19 [INFO] 答案生成成功 (2760ms): A...
+2026-04-12 23:34:25 [INFO] API请求: 题目="下列哪种措施无法提高柱效？（ ）..." 类型=single {"title":"下列哪种措施无法提高柱效？（ ）","type":"single","options":"A.\n增大色谱柱膜厚\nB.\n减小色谱柱内径\nC.\n减小进样量\nD.\n程序升温","body":"{\"title\":\"下列哪种措施无法提高柱效？（ ）\",\"type\":\"single\",\"options\":\"A.\\n增大色谱柱膜厚\\nB.\\n减小色谱柱内径\\nC.\\n减小进样量\\nD.\\n程序升温  \"}","rawTextBody":"{\"title\":\"下列哪种措施无法提高柱效？（ ）\",\"type\":\"single\",\"options\":\"A.\\n增大色谱柱膜厚\\nB.\\n减小色谱柱内径\\nC.\\n减小进样量\\nD.\\n程序升温  \"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:34:25 [INFO] 收到题目请求: 下列哪种措施无法提高柱效？（ ）... {"type":"single","hasOptions":true}
+2026-04-12 23:34:28 [INFO] 题目请求处理成功 {"title":"下列哪种措施无法提高柱效？（ ）","type":"single","hasOptions":true,"answerLength":1,"duration":"3087ms","status":"success"}
+2026-04-12 23:34:28 [INFO] 答案生成成功 (3087ms): A...
+2026-04-12 23:34:34 [INFO] API请求: 题目="当两次测试间隔较短时，不需要关机。..." 类型=judgement {"title":"当两次测试间隔较短时，不需要关机。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"当两次测试间隔较短时，不需要关机。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"当两次测试间隔较短时，不需要关机。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:34:34 [INFO] 收到题目请求: 当两次测试间隔较短时，不需要关机。... {"type":"judgement","hasOptions":true}
+2026-04-12 23:34:37 [INFO] 题目请求处理成功 {"title":"当两次测试间隔较短时，不需要关机。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"3609ms","status":"success"}
+2026-04-12 23:34:37 [INFO] 答案生成成功 (3609ms): A. 对...
+2026-04-12 23:34:43 [INFO] API请求: 题目="含C、H 和N的有机化合物的分子离子m ／z 的规则是（ ）。..." 类型=single {"title":"含C、H 和N的有机化合物的分子离子m ／z 的规则是（ ）。","type":"single","options":"A.\n偶数个N 原子数形成偶数m ／z ，奇数个N 原子形成奇数m ／z\nB.\n偶数个N 原子数形成奇数m ／z ，奇数个N 原子形成偶数m ／z\nC.\n不管N 原子数的奇偶都形成偶数m/z\nD.\n不管N 原子数的奇偶都形成奇数m/z","body":"{\"title\":\"含C、H 和N的有机化合物的分子离子m ／z 的规则是（ ）。\",\"type\":\"single\",\"options\":\"A.\\n偶数个N 原子数形成偶数m ／z ，奇数个N 原子形成奇数m ／z\\nB.\\n偶数个N 原子数形成奇数m ／z ，奇数个N 原子形成偶数m ／z\\nC.\\n不管N 原子数的奇偶都形成偶数m/z\\nD.\\n不管N 原子数的奇偶都形成奇数m/z\"}","rawTextBody":"{\"title\":\"含C、H 和N的有机化合物的分子离子m ／z 的规则是（ ）。\",\"type\":\"single\",\"options\":\"A.\\n偶数个N 原子数形成偶数m ／z ，奇数个N 原子形成奇数m ／z\\nB.\\n偶数个N 原子数形成奇数m ／z ，奇数个N 原子形成偶数m ／z\\nC.\\n不管N 原子数的奇偶都形成偶数m/z\\nD.\\n不管N 原子数的奇偶都形成奇数m/z\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:34:43 [INFO] 收到题目请求: 含C、H 和N的有机化合物的分子离子m ／z 的规则是（ ）。... {"type":"single","hasOptions":true}
+2026-04-12 23:34:46 [INFO] 题目请求处理成功 {"title":"含C、H 和N的有机化合物的分子离子m ／z 的规则是（ ）。","type":"single","hasOptions":true,"answerLength":1,"duration":"2800ms","status":"success"}
+2026-04-12 23:34:46 [INFO] 答案生成成功 (2800ms): A...
+2026-04-12 23:34:52 [INFO] API请求: 题目="气相色谱法分析非极性组分时应首先选用（ ）固定液，组分基本按（ ）顺序出峰。..." 类型=single {"title":"气相色谱法分析非极性组分时应首先选用（ ）固定液，组分基本按（ ）顺序出峰。","type":"single","options":"A.\n极性、极性\nB.\n极性、沸点 \nC.\n非极性、极性\nD.\n非极性、沸点","body":"{\"title\":\"气相色谱法分析非极性组分时应首先选用（ ）固定液，组分基本按（ ）顺序出峰。 \",\"type\":\"single\",\"options\":\"A.\\n极性、极性\\nB.\\n极性、沸点 \\nC.\\n非极性、极性\\nD.\\n非极性、沸点     \"}","rawTextBody":"{\"title\":\"气相色谱法分析非极性组分时应首先选用（ ）固定液，组分基本按（ ）顺序出峰。 \",\"type\":\"single\",\"options\":\"A.\\n极性、极性\\nB.\\n极性、沸点 \\nC.\\n非极性、极性\\nD.\\n非极性、沸点     \"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:34:52 [INFO] 收到题目请求: 气相色谱法分析非极性组分时应首先选用（ ）固定液，组分基本按（ ）顺序出峰。... {"type":"single","hasOptions":true}
+2026-04-12 23:34:54 [INFO] 题目请求处理成功 {"title":"气相色谱法分析非极性组分时应首先选用（ ）固定液，组分基本按（ ）顺序出峰。","type":"single","hasOptions":true,"answerLength":1,"duration":"2764ms","status":"success"}
+2026-04-12 23:34:54 [INFO] 答案生成成功 (2764ms): D...
+2026-04-12 23:35:22 [INFO] API请求: 题目="气相色谱柱的老化时，色谱柱要与（ ）断开。..." 类型=single {"title":"气相色谱柱的老化时，色谱柱要与（ ）断开。","type":"single","options":"A.\n检测器\nB.\n进样口\nC.\n载气","body":"{\"title\":\"气相色谱柱的老化时，色谱柱要与（ ）断开。\",\"type\":\"single\",\"options\":\"A.\\n检测器\\nB.\\n进样口\\nC.\\n载气   \"}","rawTextBody":"{\"title\":\"气相色谱柱的老化时，色谱柱要与（ ）断开。\",\"type\":\"single\",\"options\":\"A.\\n检测器\\nB.\\n进样口\\nC.\\n载气   \"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:35:22 [INFO] 收到题目请求: 气相色谱柱的老化时，色谱柱要与（ ）断开。... {"type":"single","hasOptions":true}
+2026-04-12 23:35:25 [INFO] 题目请求处理成功 {"title":"气相色谱柱的老化时，色谱柱要与（ ）断开。","type":"single","hasOptions":true,"answerLength":1,"duration":"3104ms","status":"success"}
+2026-04-12 23:35:25 [INFO] 答案生成成功 (3104ms): A...
+2026-04-12 23:35:31 [INFO] API请求: 题目="下列哪种色谱柱不是非极性柱？（ ）..." 类型=single {"title":"下列哪种色谱柱不是非极性柱？（ ）","type":"single","options":"A.\nDB-1\nB.\nHP-5\nC.\nHP-5ms\nD.\nHP-PLOT Al2O3 M","body":"{\"title\":\"下列哪种色谱柱不是非极性柱？（ ）\",\"type\":\"single\",\"options\":\"A.\\nDB-1\\nB.\\nHP-5\\nC.\\nHP-5ms\\nD.\\nHP-PLOT Al2O3 M   \"}","rawTextBody":"{\"title\":\"下列哪种色谱柱不是非极性柱？（ ）\",\"type\":\"single\",\"options\":\"A.\\nDB-1\\nB.\\nHP-5\\nC.\\nHP-5ms\\nD.\\nHP-PLOT Al2O3 M   \"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:35:31 [INFO] 收到题目请求: 下列哪种色谱柱不是非极性柱？（ ）... {"type":"single","hasOptions":true}
+2026-04-12 23:35:33 [INFO] 题目请求处理成功 {"title":"下列哪种色谱柱不是非极性柱？（ ）","type":"single","hasOptions":true,"answerLength":1,"duration":"2779ms","status":"success"}
+2026-04-12 23:35:33 [INFO] 答案生成成功 (2779ms): D...
+2026-04-12 23:35:39 [INFO] API请求: 题目="表示色谱柱的柱效率，可以用（ ）。..." 类型=single {"title":"表示色谱柱的柱效率，可以用（ ）。","type":"single","options":"A.\n分配比\nB.\n分配系数\nC.\n保留值\nD.\n有效塔板高度","body":"{\"title\":\"表示色谱柱的柱效率，可以用（ ）。\",\"type\":\"single\",\"options\":\"A.\\n分配比\\nB.\\n分配系数\\nC.\\n保留值\\nD.\\n有效塔板高度   \"}","rawTextBody":"{\"title\":\"表示色谱柱的柱效率，可以用（ ）。\",\"type\":\"single\",\"options\":\"A.\\n分配比\\nB.\\n分配系数\\nC.\\n保留值\\nD.\\n有效塔板高度   \"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:35:39 [INFO] 收到题目请求: 表示色谱柱的柱效率，可以用（ ）。... {"type":"single","hasOptions":true}
+2026-04-12 23:35:42 [INFO] 题目请求处理成功 {"title":"表示色谱柱的柱效率，可以用（ ）。","type":"single","hasOptions":true,"answerLength":1,"duration":"2899ms","status":"success"}
+2026-04-12 23:35:42 [INFO] 答案生成成功 (2899ms): D...
+2026-04-12 23:35:47 [INFO] API请求: 题目="气相色谱法所测组分和固定液分子间的氢键力实际上也是一种（ ）力，氢键力在气液色谱中占有重要地位。..." 类型=single {"title":"气相色谱法所测组分和固定液分子间的氢键力实际上也是一种（ ）力，氢键力在气液色谱中占有重要地位。","type":"single","options":"A.\n定向\nB.\n范德华力\nC.\n诱导力\nD.\n色散力","body":"{\"title\":\"气相色谱法所测组分和固定液分子间的氢键力实际上也是一种（ ）力，氢键力在气液色谱中占有重要地位。\",\"type\":\"single\",\"options\":\"A.\\n定向\\nB.\\n范德华力\\nC.\\n诱导力\\nD.\\n色散力    \"}","rawTextBody":"{\"title\":\"气相色谱法所测组分和固定液分子间的氢键力实际上也是一种（ ）力，氢键力在气液色谱中占有重要地位。\",\"type\":\"single\",\"options\":\"A.\\n定向\\nB.\\n范德华力\\nC.\\n诱导力\\nD.\\n色散力    \"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:35:47 [INFO] 收到题目请求: 气相色谱法所测组分和固定液分子间的氢键力实际上也是一种（ ）力，氢键力在气液色谱中占有重要地位。... {"type":"single","hasOptions":true}
+2026-04-12 23:35:50 [INFO] 题目请求处理成功 {"title":"气相色谱法所测组分和固定液分子间的氢键力实际上也是一种（ ）力，氢键力在气液色谱中占有重要地位。","type":"single","hasOptions":true,"answerLength":5,"duration":"2913ms","status":"success"}
+2026-04-12 23:35:50 [INFO] 答案生成成功 (2913ms): A.
+定向...
+2026-04-12 23:35:55 [INFO] API请求: 题目="气相色谱分析中等极性组分首先选用（ ）固定液，组分基本按（ ）顺序流出色谱柱。（ ）..." 类型=single {"title":"气相色谱分析中等极性组分首先选用（ ）固定液，组分基本按（ ）顺序流出色谱柱。（ ）","type":"single","options":"A.\n中极性、极性\nB.\n中极性、沸点\nC.\n非极性、极性\nD.\n非极性、沸点","body":"{\"title\":\"气相色谱分析中等极性组分首先选用（ ）固定液，组分基本按（ ）顺序流出色谱柱。（ ）\",\"type\":\"single\",\"options\":\"A.\\n中极性、极性\\nB.\\n中极性、沸点\\nC.\\n非极性、极性\\nD.\\n非极性、沸点    \"}","rawTextBody":"{\"title\":\"气相色谱分析中等极性组分首先选用（ ）固定液，组分基本按（ ）顺序流出色谱柱。（ ）\",\"type\":\"single\",\"options\":\"A.\\n中极性、极性\\nB.\\n中极性、沸点\\nC.\\n非极性、极性\\nD.\\n非极性、沸点    \"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:35:55 [INFO] 收到题目请求: 气相色谱分析中等极性组分首先选用（ ）固定液，组分基本按（ ）顺序流出色谱柱。（ ）... {"type":"single","hasOptions":true}
+2026-04-12 23:35:59 [INFO] 题目请求处理成功 {"title":"气相色谱分析中等极性组分首先选用（ ）固定液，组分基本按（ ）顺序流出色谱柱。（ ）","type":"single","hasOptions":true,"answerLength":1,"duration":"3642ms","status":"success"}
+2026-04-12 23:35:59 [INFO] 答案生成成功 (3642ms): B...
+2026-04-12 23:36:05 [INFO] API请求: 题目="连接气相色谱的载气压力应控制在0.5 兆帕左右。..." 类型=judgement {"title":"连接气相色谱的载气压力应控制在0.5 兆帕左右。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"连接气相色谱的载气压力应控制在0.5 兆帕左右。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"连接气相色谱的载气压力应控制在0.5 兆帕左右。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:36:05 [INFO] 收到题目请求: 连接气相色谱的载气压力应控制在0.5 兆帕左右。... {"type":"judgement","hasOptions":true}
+2026-04-12 23:36:10 [ERROR] 题目请求处理失败 {"title":"连接气相色谱的载气压力应控制在0.5 兆帕左右。","type":"judgement","hasOptions":true,"answerLength":0,"duration":"5011ms","status":"error"}
+2026-04-12 23:36:10 [ERROR] 答案生成失败: 网络错误: Client network socket disconnected before secure TLS connection was established
+2026-04-12 23:39:14 [INFO] API请求: 题目="软件提示无发射电流时，可能是灯丝断了，可以尝试使用另外一个灯丝进行调谐。..." 类型=judgement {"title":"软件提示无发射电流时，可能是灯丝断了，可以尝试使用另外一个灯丝进行调谐。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"软件提示无发射电流时，可能是灯丝断了，可以尝试使用另外一个灯丝进行调谐。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"软件提示无发射电流时，可能是灯丝断了，可以尝试使用另外一个灯丝进行调谐。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:39:14 [INFO] 收到题目请求: 软件提示无发射电流时，可能是灯丝断了，可以尝试使用另外一个灯丝进行调谐。... {"type":"judgement","hasOptions":true}
+2026-04-12 23:39:17 [INFO] 题目请求处理成功 {"title":"软件提示无发射电流时，可能是灯丝断了，可以尝试使用另外一个灯丝进行调谐。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"2690ms","status":"success"}
+2026-04-12 23:39:17 [INFO] 答案生成成功 (2690ms): A. 对...
+2026-04-12 23:39:22 [INFO] API请求: 题目="调机过程中选择Adjust RF turning后，在电脑荧幕上应该观察到RF为一条较光滑的水平线。..." 类型=judgement {"title":"调机过程中选择Adjust RF turning后，在电脑荧幕上应该观察到RF为一条较光滑的水平线。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"调机过程中选择Adjust RF turning后，在电脑荧幕上应该观察到RF为一条较光滑的水平线。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"调机过程中选择Adjust RF turning后，在电脑荧幕上应该观察到RF为一条较光滑的水平线。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:39:22 [INFO] 收到题目请求: 调机过程中选择Adjust RF turning后，在电脑荧幕上应该观察到RF为一条较光滑的水平线。... {"type":"judgement","hasOptions":true}
+2026-04-12 23:39:26 [INFO] 题目请求处理成功 {"title":"调机过程中选择Adjust RF turning后，在电脑荧幕上应该观察到RF为一条较光滑的水平线。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"3557ms","status":"success"}
+2026-04-12 23:39:26 [INFO] 答案生成成功 (3557ms): A. 对...
+2026-04-12 23:39:31 [INFO] API请求: 题目="质谱仪分析温度设定，Trap为（ ）度，Manifold 为（ ）度，传输线（X ferline）为..." 类型=single {"title":"质谱仪分析温度设定，Trap为（ ）度，Manifold 为（ ）度，传输线（X ferline）为（ ）度。","type":"single","options":"A.\n150，250，45\nB.\n250，45，150\nC.\n150，45，250\nD.\n250，150，45","body":"{\"title\":\"质谱仪分析温度设定，Trap为（ ）度，Manifold 为（ ）度，传输线（X ferline）为（ ）度。\",\"type\":\"single\",\"options\":\"A.\\n150，250，45\\nB.\\n250，45，150\\nC.\\n150，45，250\\nD.\\n250，150，45\"}","rawTextBody":"{\"title\":\"质谱仪分析温度设定，Trap为（ ）度，Manifold 为（ ）度，传输线（X ferline）为（ ）度。\",\"type\":\"single\",\"options\":\"A.\\n150，250，45\\nB.\\n250，45，150\\nC.\\n150，45，250\\nD.\\n250，150，45\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:39:31 [INFO] 收到题目请求: 质谱仪分析温度设定，Trap为（ ）度，Manifold 为（ ）度，传输线（X ferline）为... {"type":"single","hasOptions":true}
+2026-04-12 23:39:35 [INFO] 题目请求处理成功 {"title":"质谱仪分析温度设定，Trap为（ ）度，Manifold 为（ ）度，传输线（X ferline）为（ ）度。","type":"single","hasOptions":true,"answerLength":1,"duration":"3169ms","status":"success"}
+2026-04-12 23:39:35 [INFO] 答案生成成功 (3169ms): C...
+2026-04-12 23:39:40 [INFO] API请求: 题目="每次进样前应使用纯净溶剂洗涤进样针，而不能使用样品液来润洗。..." 类型=judgement {"title":"每次进样前应使用纯净溶剂洗涤进样针，而不能使用样品液来润洗。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"每次进样前应使用纯净溶剂洗涤进样针，而不能使用样品液来润洗。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"每次进样前应使用纯净溶剂洗涤进样针，而不能使用样品液来润洗。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:39:40 [INFO] 收到题目请求: 每次进样前应使用纯净溶剂洗涤进样针，而不能使用样品液来润洗。... {"type":"judgement","hasOptions":true}
+2026-04-12 23:39:44 [INFO] 题目请求处理成功 {"title":"每次进样前应使用纯净溶剂洗涤进样针，而不能使用样品液来润洗。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"4060ms","status":"success"}
+2026-04-12 23:39:44 [INFO] 答案生成成功 (4060ms): B. 错...
+2026-04-12 23:39:50 [INFO] API请求: 题目="观察空气峰28的Width 在1m/z 以下，水峰19/18Ratio在20％以下。Air/Wate..." 类型=judgement {"title":"观察空气峰28的Width 在1m/z 以下，水峰19/18Ratio在20％以下。Air/WaterCheck 显示OK 时才可进行样品分析。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"观察空气峰28的Width 在1m/z 以下，水峰19/18Ratio在20％以下。Air/WaterCheck 显示OK 时才可进行样品分析。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"观察空气峰28的Width 在1m/z 以下，水峰19/18Ratio在20％以下。Air/WaterCheck 显示OK 时才可进行样品分析。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:39:50 [INFO] 收到题目请求: 观察空气峰28的Width 在1m/z 以下，水峰19/18Ratio在20％以下。Air/Wate... {"type":"judgement","hasOptions":true}
+2026-04-12 23:39:53 [INFO] 题目请求处理成功 {"title":"观察空气峰28的Width 在1m/z 以下，水峰19/18Ratio在20％以下。Air/WaterCheck 显示OK 时才可进行样品分析。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"3216ms","status":"success"}
+2026-04-12 23:39:53 [INFO] 答案生成成功 (3216ms): A. 对...
+2026-04-12 23:39:58 [INFO] API请求: 题目="气质联用实验操作时，a打开电脑，b打开氦气瓶，c注射样品，d调机，以上操作步骤的正确顺序是：（ ）..." 类型=single {"title":"气质联用实验操作时，a打开电脑，b打开氦气瓶，c注射样品，d调机，以上操作步骤的正确顺序是：（ ）","type":"single","options":"A.\n a-b-d-c \nB.\nb-a-c-d\nC.\na-d-b-c \nD.\nb-a-d-c","body":"{\"title\":\"气质联用实验操作时，a打开电脑，b打开氦气瓶，c注射样品，d调机，以上操作步骤的正确顺序是：（ ）\",\"type\":\"single\",\"options\":\"A.\\n a-b-d-c \\nB.\\nb-a-c-d\\nC.\\na-d-b-c \\nD.\\nb-a-d-c\"}","rawTextBody":"{\"title\":\"气质联用实验操作时，a打开电脑，b打开氦气瓶，c注射样品，d调机，以上操作步骤的正确顺序是：（ ）\",\"type\":\"single\",\"options\":\"A.\\n a-b-d-c \\nB.\\nb-a-c-d\\nC.\\na-d-b-c \\nD.\\nb-a-d-c\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:39:58 [INFO] 收到题目请求: 气质联用实验操作时，a打开电脑，b打开氦气瓶，c注射样品，d调机，以上操作步骤的正确顺序是：（ ）... {"type":"single","hasOptions":true}
+2026-04-12 23:40:01 [INFO] 题目请求处理成功 {"title":"气质联用实验操作时，a打开电脑，b打开氦气瓶，c注射样品，d调机，以上操作步骤的正确顺序是：（ ）","type":"single","hasOptions":true,"answerLength":1,"duration":"3176ms","status":"success"}
+2026-04-12 23:40:01 [INFO] 答案生成成功 (3176ms): D...
+2026-04-12 23:40:45 [INFO] API请求: 题目="调谐时灯丝是亮的，运行时灯丝不亮，无溶剂延迟窗口，则可以检查质谱和GC背后remote连线是否妥善连..." 类型=judgement {"title":"调谐时灯丝是亮的，运行时灯丝不亮，无溶剂延迟窗口，则可以检查质谱和GC背后remote连线是否妥善连接。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"调谐时灯丝是亮的，运行时灯丝不亮，无溶剂延迟窗口，则可以检查质谱和GC背后remote连线是否妥善连接。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"调谐时灯丝是亮的，运行时灯丝不亮，无溶剂延迟窗口，则可以检查质谱和GC背后remote连线是否妥善连接。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:40:45 [INFO] 收到题目请求: 调谐时灯丝是亮的，运行时灯丝不亮，无溶剂延迟窗口，则可以检查质谱和GC背后remote连线是否妥善连... {"type":"judgement","hasOptions":true}
+2026-04-12 23:40:48 [INFO] 题目请求处理成功 {"title":"调谐时灯丝是亮的，运行时灯丝不亮，无溶剂延迟窗口，则可以检查质谱和GC背后remote连线是否妥善连接。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"2730ms","status":"success"}
+2026-04-12 23:40:48 [INFO] 答案生成成功 (2730ms): A. 对...
+2026-04-12 23:40:54 [INFO] API请求: 题目="气质联用实验联机的时候应先打开质谱仪再打开气相色谱仪。..." 类型=judgement {"title":"气质联用实验联机的时候应先打开质谱仪再打开气相色谱仪。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"气质联用实验联机的时候应先打开质谱仪再打开气相色谱仪。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"气质联用实验联机的时候应先打开质谱仪再打开气相色谱仪。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:40:54 [INFO] 收到题目请求: 气质联用实验联机的时候应先打开质谱仪再打开气相色谱仪。... {"type":"judgement","hasOptions":true}
+2026-04-12 23:40:57 [INFO] 题目请求处理成功 {"title":"气质联用实验联机的时候应先打开质谱仪再打开气相色谱仪。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"2928ms","status":"success"}
+2026-04-12 23:40:57 [INFO] 答案生成成功 (2928ms): B. 错...
+2026-04-12 23:41:02 [INFO] API请求: 题目="调机过程中Trap，Manifold 及Xferline 的温度，当实际值与设定值的差距在10 度以..." 类型=judgement {"title":"调机过程中Trap，Manifold 及Xferline 的温度，当实际值与设定值的差距在10 度以内时才允许Tune。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"调机过程中Trap，Manifold 及Xferline 的温度，当实际值与设定值的差距在10 度以内时才允许Tune。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"调机过程中Trap，Manifold 及Xferline 的温度，当实际值与设定值的差距在10 度以内时才允许Tune。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:41:02 [INFO] 收到题目请求: 调机过程中Trap，Manifold 及Xferline 的温度，当实际值与设定值的差距在10 度以... {"type":"judgement","hasOptions":true}
+2026-04-12 23:41:05 [INFO] 题目请求处理成功 {"title":"调机过程中Trap，Manifold 及Xferline 的温度，当实际值与设定值的差距在10 度以内时才允许Tune。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"2812ms","status":"success"}
+2026-04-12 23:41:05 [INFO] 答案生成成功 (2812ms): A. 对...
+2026-04-12 23:41:10 [INFO] API请求: 题目="工作站非正常退出可能会导致无法联机，这时候可以重启电脑、气相色谱和质谱。..." 类型=judgement {"title":"工作站非正常退出可能会导致无法联机，这时候可以重启电脑、气相色谱和质谱。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"工作站非正常退出可能会导致无法联机，这时候可以重启电脑、气相色谱和质谱。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"工作站非正常退出可能会导致无法联机，这时候可以重启电脑、气相色谱和质谱。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:41:10 [INFO] 收到题目请求: 工作站非正常退出可能会导致无法联机，这时候可以重启电脑、气相色谱和质谱。... {"type":"judgement","hasOptions":true}
+2026-04-12 23:41:13 [INFO] 题目请求处理成功 {"title":"工作站非正常退出可能会导致无法联机，这时候可以重启电脑、气相色谱和质谱。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"2574ms","status":"success"}
+2026-04-12 23:41:13 [INFO] 答案生成成功 (2574ms): A. 对...
+2026-04-12 23:41:18 [INFO] API请求: 题目="样品分析时， 点击Active Method，激活分析方法，然后注射样品，等待仪器全部Ready后，..." 类型=judgement {"title":"样品分析时， 点击Active Method，激活分析方法，然后注射样品，等待仪器全部Ready后，保存数据。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"样品分析时， 点击Active Method，激活分析方法，然后注射样品，等待仪器全部Ready后，保存数据。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"样品分析时， 点击Active Method，激活分析方法，然后注射样品，等待仪器全部Ready后，保存数据。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:41:18 [INFO] 收到题目请求: 样品分析时， 点击Active Method，激活分析方法，然后注射样品，等待仪器全部Ready后，... {"type":"judgement","hasOptions":true}
+2026-04-12 23:41:21 [INFO] 题目请求处理成功 {"title":"样品分析时， 点击Active Method，激活分析方法，然后注射样品，等待仪器全部Ready后，保存数据。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"2914ms","status":"success"}
+2026-04-12 23:41:21 [INFO] 答案生成成功 (2914ms): B. 错...
+2026-04-12 23:41:26 [INFO] API请求: 题目="联机成功3分钟后，发现分子涡流泵转速达不到100%， 则表示系统有大漏，此时应关掉气相色谱，检查后再..." 类型=judgement {"title":"联机成功3分钟后，发现分子涡流泵转速达不到100%， 则表示系统有大漏，此时应关掉气相色谱，检查后再启动。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"联机成功3分钟后，发现分子涡流泵转速达不到100%， 则表示系统有大漏，此时应关掉气相色谱，检查后再启动。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"联机成功3分钟后，发现分子涡流泵转速达不到100%， 则表示系统有大漏，此时应关掉气相色谱，检查后再启动。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:41:26 [INFO] 收到题目请求: 联机成功3分钟后，发现分子涡流泵转速达不到100%， 则表示系统有大漏，此时应关掉气相色谱，检查后再... {"type":"judgement","hasOptions":true}
+2026-04-12 23:41:29 [INFO] 题目请求处理成功 {"title":"联机成功3分钟后，发现分子涡流泵转速达不到100%， 则表示系统有大漏，此时应关掉气相色谱，检查后再启动。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"2839ms","status":"success"}
+2026-04-12 23:41:29 [INFO] 答案生成成功 (2839ms): A. 对...
+2026-04-12 23:44:11 [INFO] API请求: 题目="调机过程中选择Adjust RF turning 后，在电脑荧幕上观察到RF是为一条较光滑的斜线，则..." 类型=judgement {"title":"调机过程中选择Adjust RF turning 后，在电脑荧幕上观察到RF是为一条较光滑的斜线，则可以点击Save Results。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"调机过程中选择Adjust RF turning 后，在电脑荧幕上观察到RF是为一条较光滑的斜线，则可以点击Save Results。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"调机过程中选择Adjust RF turning 后，在电脑荧幕上观察到RF是为一条较光滑的斜线，则可以点击Save Results。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:44:11 [INFO] 收到题目请求: 调机过程中选择Adjust RF turning 后，在电脑荧幕上观察到RF是为一条较光滑的斜线，则... {"type":"judgement","hasOptions":true}
+2026-04-12 23:44:14 [INFO] 题目请求处理成功 {"title":"调机过程中选择Adjust RF turning 后，在电脑荧幕上观察到RF是为一条较光滑的斜线，则可以点击Save Results。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"2682ms","status":"success"}
+2026-04-12 23:44:14 [INFO] 答案生成成功 (2682ms): B. 错...
+2026-04-12 23:44:19 [INFO] API请求: 题目="真空度检查（如果仪器带真空规），在Diagnostic页面选择Ion Gauge，其读数在50个μT..." 类型=judgement {"title":"真空度检查（如果仪器带真空规），在Diagnostic页面选择Ion Gauge，其读数在50个μTorr以下时，才允许做Air/Water Check。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"真空度检查（如果仪器带真空规），在Diagnostic页面选择Ion Gauge，其读数在50个μTorr以下时，才允许做Air/Water Check。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"真空度检查（如果仪器带真空规），在Diagnostic页面选择Ion Gauge，其读数在50个μTorr以下时，才允许做Air/Water Check。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:44:19 [INFO] 收到题目请求: 真空度检查（如果仪器带真空规），在Diagnostic页面选择Ion Gauge，其读数在50个μT... {"type":"judgement","hasOptions":true}
+2026-04-12 23:44:22 [INFO] 题目请求处理成功 {"title":"真空度检查（如果仪器带真空规），在Diagnostic页面选择Ion Gauge，其读数在50个μTorr以下时，才允许做Air/Water Check。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"2429ms","status":"success"}
+2026-04-12 23:44:22 [INFO] 答案生成成功 (2429ms): A. 对...
+2026-04-12 23:44:27 [INFO] API请求: 题目="当设置完参数后，应先注射样品，然后点击Inject开始采集数据。..." 类型=judgement {"title":"当设置完参数后，应先注射样品，然后点击Inject开始采集数据。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"当设置完参数后，应先注射样品，然后点击Inject开始采集数据。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"当设置完参数后，应先注射样品，然后点击Inject开始采集数据。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:44:27 [INFO] 收到题目请求: 当设置完参数后，应先注射样品，然后点击Inject开始采集数据。... {"type":"judgement","hasOptions":true}
+2026-04-12 23:44:31 [INFO] 题目请求处理成功 {"title":"当设置完参数后，应先注射样品，然后点击Inject开始采集数据。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"3658ms","status":"success"}
+2026-04-12 23:44:31 [INFO] 答案生成成功 (3658ms): B. 错...
+2026-04-12 23:44:36 [INFO] API请求: 题目="调机过程中选择Adjust RF turning后，在电脑荧幕上应该观察到RF为一条较光滑的水平线。..." 类型=judgement {"title":"调机过程中选择Adjust RF turning后，在电脑荧幕上应该观察到RF为一条较光滑的水平线。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"调机过程中选择Adjust RF turning后，在电脑荧幕上应该观察到RF为一条较光滑的水平线。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"调机过程中选择Adjust RF turning后，在电脑荧幕上应该观察到RF为一条较光滑的水平线。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:44:36 [INFO] 收到题目请求: 调机过程中选择Adjust RF turning后，在电脑荧幕上应该观察到RF为一条较光滑的水平线。... {"type":"judgement","hasOptions":true}
+2026-04-12 23:44:48 [INFO] 题目请求处理成功 {"title":"调机过程中选择Adjust RF turning后，在电脑荧幕上应该观察到RF为一条较光滑的水平线。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"12264ms","status":"success"}
+2026-04-12 23:44:48 [INFO] 答案生成成功 (12264ms): A. 对...
+2026-04-12 23:44:54 [INFO] API请求: 题目="联机成功3分钟后，发现分子涡流泵转速达不到100%， 则表示系统有大漏，此时应关掉气相色谱，检查后再..." 类型=judgement {"title":"联机成功3分钟后，发现分子涡流泵转速达不到100%， 则表示系统有大漏，此时应关掉气相色谱，检查后再启动。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"联机成功3分钟后，发现分子涡流泵转速达不到100%， 则表示系统有大漏，此时应关掉气相色谱，检查后再启动。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"联机成功3分钟后，发现分子涡流泵转速达不到100%， 则表示系统有大漏，此时应关掉气相色谱，检查后再启动。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:44:54 [INFO] 收到题目请求: 联机成功3分钟后，发现分子涡流泵转速达不到100%， 则表示系统有大漏，此时应关掉气相色谱，检查后再... {"type":"judgement","hasOptions":true}
+2026-04-12 23:44:57 [INFO] 题目请求处理成功 {"title":"联机成功3分钟后，发现分子涡流泵转速达不到100%， 则表示系统有大漏，此时应关掉气相色谱，检查后再启动。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"3177ms","status":"success"}
+2026-04-12 23:44:57 [INFO] 答案生成成功 (3177ms): A. 对...
+2026-04-12 23:45:02 [INFO] API请求: 题目="观察空气峰28的Width 在1m/z 以下，水峰19/18 Ratio在50％以下，则需检查除水除..." 类型=judgement {"title":"观察空气峰28的Width 在1m/z 以下，水峰19/18 Ratio在50％以下，则需检查除水除氧过滤器是否饱和。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"观察空气峰28的Width 在1m/z 以下，水峰19/18 Ratio在50％以下，则需检查除水除氧过滤器是否饱和。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"观察空气峰28的Width 在1m/z 以下，水峰19/18 Ratio在50％以下，则需检查除水除氧过滤器是否饱和。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:45:02 [INFO] 收到题目请求: 观察空气峰28的Width 在1m/z 以下，水峰19/18 Ratio在50％以下，则需检查除水除... {"type":"judgement","hasOptions":true}
+2026-04-12 23:45:05 [INFO] 题目请求处理成功 {"title":"观察空气峰28的Width 在1m/z 以下，水峰19/18 Ratio在50％以下，则需检查除水除氧过滤器是否饱和。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"2530ms","status":"success"}
+2026-04-12 23:45:05 [INFO] 答案生成成功 (2530ms): A. 对...
+2026-04-12 23:46:33 [INFO] 收到SIGINT信号，正在关闭服务器...
+2026-04-12 23:46:36 [INFO] 
+╔════════════════════════════════════════════════════════════╗
+║            OCS 答案服务器已启动                              ║
+╠════════════════════════════════════════════════════════════╣
+║  服务地址: http://127.0.0.1:3000                             ║
+║  API文档:  GET  /info                                        ║
+║  答案接口:  POST /api/answer                                 ║
+║  OCS配置:   GET  /api/ocs-config                             ║
+║  健康检查:  GET  /health                                      ║
+╠════════════════════════════════════════════════════════════╣
+║  LLM配置:   openrouter                                           ║
+║  模型:      anthropic/claude-sonnet-4.6                          ║
+╚════════════════════════════════════════════════════════════╝
+    
+2026-04-12 23:50:10 [INFO] API请求: 题目="调机过程中选择Adjust RF turning 后，在电脑荧幕上观察到RF是为一条较光滑的斜线，则..." 类型=judgement {"title":"调机过程中选择Adjust RF turning 后，在电脑荧幕上观察到RF是为一条较光滑的斜线，则可以点击Save Results。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"调机过程中选择Adjust RF turning 后，在电脑荧幕上观察到RF是为一条较光滑的斜线，则可以点击Save Results。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"调机过程中选择Adjust RF turning 后，在电脑荧幕上观察到RF是为一条较光滑的斜线，则可以点击Save Results。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:50:10 [INFO] 收到题目请求: 调机过程中选择Adjust RF turning 后，在电脑荧幕上观察到RF是为一条较光滑的斜线，则... {"type":"judgement","hasOptions":true}
+2026-04-12 23:50:13 [INFO] 题目请求处理成功 {"title":"调机过程中选择Adjust RF turning 后，在电脑荧幕上观察到RF是为一条较光滑的斜线，则可以点击Save Results。","type":"judgement","hasOptions":true,"answerLength":1,"duration":"2887ms","status":"success"}
+2026-04-12 23:50:13 [INFO] 答案生成成功 (2887ms): B...
+2026-04-12 23:50:17 [INFO] API请求: 题目="真空度检查（如果仪器带真空规），在Diagnostic页面选择Ion Gauge，其读数在50个μT..." 类型=judgement {"title":"真空度检查（如果仪器带真空规），在Diagnostic页面选择Ion Gauge，其读数在50个μTorr以下时，才允许做Air/Water Check。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"真空度检查（如果仪器带真空规），在Diagnostic页面选择Ion Gauge，其读数在50个μTorr以下时，才允许做Air/Water Check。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"真空度检查（如果仪器带真空规），在Diagnostic页面选择Ion Gauge，其读数在50个μTorr以下时，才允许做Air/Water Check。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:50:17 [INFO] 收到题目请求: 真空度检查（如果仪器带真空规），在Diagnostic页面选择Ion Gauge，其读数在50个μT... {"type":"judgement","hasOptions":true}
+2026-04-12 23:50:19 [INFO] 题目请求处理成功 {"title":"真空度检查（如果仪器带真空规），在Diagnostic页面选择Ion Gauge，其读数在50个μTorr以下时，才允许做Air/Water Check。","type":"judgement","hasOptions":true,"answerLength":1,"duration":"1626ms","status":"success"}
+2026-04-12 23:50:19 [INFO] 答案生成成功 (1626ms): A...
+2026-04-12 23:50:23 [INFO] API请求: 题目="联机成功3分钟后，发现分子涡流泵转速达不到100%， 则表示系统有大漏，此时应关掉气相色谱，检查后再..." 类型=judgement {"title":"联机成功3分钟后，发现分子涡流泵转速达不到100%， 则表示系统有大漏，此时应关掉气相色谱，检查后再启动。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"联机成功3分钟后，发现分子涡流泵转速达不到100%， 则表示系统有大漏，此时应关掉气相色谱，检查后再启动。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"联机成功3分钟后，发现分子涡流泵转速达不到100%， 则表示系统有大漏，此时应关掉气相色谱，检查后再启动。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:50:23 [INFO] 收到题目请求: 联机成功3分钟后，发现分子涡流泵转速达不到100%， 则表示系统有大漏，此时应关掉气相色谱，检查后再... {"type":"judgement","hasOptions":true}
+2026-04-12 23:50:25 [INFO] 题目请求处理成功 {"title":"联机成功3分钟后，发现分子涡流泵转速达不到100%， 则表示系统有大漏，此时应关掉气相色谱，检查后再启动。","type":"judgement","hasOptions":true,"answerLength":1,"duration":"2124ms","status":"success"}
+2026-04-12 23:50:25 [INFO] 答案生成成功 (2124ms): A...
+2026-04-12 23:50:30 [INFO] API请求: 题目="调机过程中选择Adjust RF turning后，在电脑荧幕上应该观察到RF为一条较光滑的水平线。..." 类型=judgement {"title":"调机过程中选择Adjust RF turning后，在电脑荧幕上应该观察到RF为一条较光滑的水平线。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"调机过程中选择Adjust RF turning后，在电脑荧幕上应该观察到RF为一条较光滑的水平线。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"调机过程中选择Adjust RF turning后，在电脑荧幕上应该观察到RF为一条较光滑的水平线。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:50:30 [INFO] 收到题目请求: 调机过程中选择Adjust RF turning后，在电脑荧幕上应该观察到RF为一条较光滑的水平线。... {"type":"judgement","hasOptions":true}
+2026-04-12 23:50:31 [INFO] 题目请求处理成功 {"title":"调机过程中选择Adjust RF turning后，在电脑荧幕上应该观察到RF为一条较光滑的水平线。","type":"judgement","hasOptions":true,"answerLength":1,"duration":"1049ms","status":"success"}
+2026-04-12 23:50:31 [INFO] 答案生成成功 (1049ms): A...
+2026-04-12 23:50:35 [INFO] API请求: 题目="调机过程中Trap，Manifold 及Xferline 的温度，当实际值与设定值的差距在10 度以..." 类型=judgement {"title":"调机过程中Trap，Manifold 及Xferline 的温度，当实际值与设定值的差距在10 度以内时才允许Tune。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"调机过程中Trap，Manifold 及Xferline 的温度，当实际值与设定值的差距在10 度以内时才允许Tune。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"调机过程中Trap，Manifold 及Xferline 的温度，当实际值与设定值的差距在10 度以内时才允许Tune。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:50:35 [INFO] 收到题目请求: 调机过程中Trap，Manifold 及Xferline 的温度，当实际值与设定值的差距在10 度以... {"type":"judgement","hasOptions":true}
+2026-04-12 23:50:36 [INFO] 题目请求处理成功 {"title":"调机过程中Trap，Manifold 及Xferline 的温度，当实际值与设定值的差距在10 度以内时才允许Tune。","type":"judgement","hasOptions":true,"answerLength":1,"duration":"1423ms","status":"success"}
+2026-04-12 23:50:36 [INFO] 答案生成成功 (1423ms): A...
+2026-04-12 23:50:40 [INFO] API请求: 题目="气质联用实验联机的时候应先打开质谱仪再打开气相色谱仪。..." 类型=judgement {"title":"气质联用实验联机的时候应先打开质谱仪再打开气相色谱仪。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"气质联用实验联机的时候应先打开质谱仪再打开气相色谱仪。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"气质联用实验联机的时候应先打开质谱仪再打开气相色谱仪。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:50:40 [INFO] 收到题目请求: 气质联用实验联机的时候应先打开质谱仪再打开气相色谱仪。... {"type":"judgement","hasOptions":true}
+2026-04-12 23:50:42 [INFO] 题目请求处理成功 {"title":"气质联用实验联机的时候应先打开质谱仪再打开气相色谱仪。","type":"judgement","hasOptions":true,"answerLength":1,"duration":"1327ms","status":"success"}
+2026-04-12 23:50:42 [INFO] 答案生成成功 (1327ms): A...
+2026-04-12 23:52:23 [INFO] 收到SIGINT信号，正在关闭服务器...
+2026-04-12 23:53:18 [INFO] 
+╔════════════════════════════════════════════════════════════╗
+║            OCS 答案服务器已启动                              ║
+╠════════════════════════════════════════════════════════════╣
+║  服务地址: http://127.0.0.1:3000                             ║
+║  API文档:  GET  /info                                        ║
+║  答案接口:  POST /api/answer                                 ║
+║  OCS配置:   GET  /api/ocs-config                             ║
+║  健康检查:  GET  /health                                      ║
+╠════════════════════════════════════════════════════════════╣
+║  LLM配置:   openrouter                                           ║
+║  模型:      anthropic/gemini-3.1-pro                             ║
+╚════════════════════════════════════════════════════════════╝
+    
+2026-04-12 23:53:22 [INFO] 收到SIGINT信号，正在关闭服务器...
+2026-04-12 23:53:34 [INFO] 
+╔════════════════════════════════════════════════════════════╗
+║            OCS 答案服务器已启动                              ║
+╠════════════════════════════════════════════════════════════╣
+║  服务地址: http://127.0.0.1:3000                             ║
+║  API文档:  GET  /info                                        ║
+║  答案接口:  POST /api/answer                                 ║
+║  OCS配置:   GET  /api/ocs-config                             ║
+║  健康检查:  GET  /health                                      ║
+╠════════════════════════════════════════════════════════════╣
+║  LLM配置:   openrouter                                           ║
+║  模型:      google/gemini-3.1-pro                                ║
+╚════════════════════════════════════════════════════════════╝
+    
+2026-04-12 23:53:50 [INFO] API请求: 题目="气质联用实验联机的时候应先打开质谱仪再打开气相色谱仪。..." 类型=judgement {"title":"气质联用实验联机的时候应先打开质谱仪再打开气相色谱仪。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"气质联用实验联机的时候应先打开质谱仪再打开气相色谱仪。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"气质联用实验联机的时候应先打开质谱仪再打开气相色谱仪。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:53:50 [INFO] 收到题目请求: 气质联用实验联机的时候应先打开质谱仪再打开气相色谱仪。... {"type":"judgement","hasOptions":true}
+2026-04-12 23:53:52 [ERROR] 题目请求处理失败 {"title":"气质联用实验联机的时候应先打开质谱仪再打开气相色谱仪。","type":"judgement","hasOptions":true,"answerLength":0,"duration":"1966ms","status":"error"}
+2026-04-12 23:53:52 [ERROR] 答案生成失败: OpenRouter错误: google/gemini-3.1-pro is not a valid model ID
+2026-04-12 23:53:57 [INFO] API请求: 题目="调机过程中选择Adjust RF turning 后，在电脑荧幕上观察到RF是为一条较光滑的斜线，则..." 类型=judgement {"title":"调机过程中选择Adjust RF turning 后，在电脑荧幕上观察到RF是为一条较光滑的斜线，则可以点击Save Results。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"调机过程中选择Adjust RF turning 后，在电脑荧幕上观察到RF是为一条较光滑的斜线，则可以点击Save Results。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"调机过程中选择Adjust RF turning 后，在电脑荧幕上观察到RF是为一条较光滑的斜线，则可以点击Save Results。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:53:57 [INFO] 收到题目请求: 调机过程中选择Adjust RF turning 后，在电脑荧幕上观察到RF是为一条较光滑的斜线，则... {"type":"judgement","hasOptions":true}
+2026-04-12 23:53:57 [ERROR] 题目请求处理失败 {"title":"调机过程中选择Adjust RF turning 后，在电脑荧幕上观察到RF是为一条较光滑的斜线，则可以点击Save Results。","type":"judgement","hasOptions":true,"answerLength":0,"duration":"206ms","status":"error"}
+2026-04-12 23:53:57 [ERROR] 答案生成失败: OpenRouter错误: google/gemini-3.1-pro is not a valid model ID
+2026-04-12 23:55:21 [INFO] 收到SIGINT信号，正在关闭服务器...
+2026-04-12 23:55:32 [INFO] 
+╔════════════════════════════════════════════════════════════╗
+║            OCS 答案服务器已启动                              ║
+╠════════════════════════════════════════════════════════════╣
+║  服务地址: http://127.0.0.1:3000                             ║
+║  API文档:  GET  /info                                        ║
+║  答案接口:  POST /api/answer                                 ║
+║  OCS配置:   GET  /api/ocs-config                             ║
+║  健康检查:  GET  /health                                      ║
+╠════════════════════════════════════════════════════════════╣
+║  LLM配置:   openrouter                                           ║
+║  模型:      google/gemini-3.1-pro-preview-customtools            ║
+╚════════════════════════════════════════════════════════════╝
+    
+2026-04-12 23:55:43 [INFO] API请求: 题目="气质联用实验联机的时候应先打开质谱仪再打开气相色谱仪。..." 类型=judgement {"title":"气质联用实验联机的时候应先打开质谱仪再打开气相色谱仪。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"气质联用实验联机的时候应先打开质谱仪再打开气相色谱仪。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"气质联用实验联机的时候应先打开质谱仪再打开气相色谱仪。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:55:43 [INFO] 收到题目请求: 气质联用实验联机的时候应先打开质谱仪再打开气相色谱仪。... {"type":"judgement","hasOptions":true}
+2026-04-12 23:55:52 [INFO] 题目请求处理成功 {"title":"气质联用实验联机的时候应先打开质谱仪再打开气相色谱仪。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"8930ms","status":"success"}
+2026-04-12 23:55:52 [INFO] 答案生成成功 (8930ms): B.
+错...
+2026-04-12 23:55:57 [INFO] API请求: 题目="调机过程中选择Adjust RF turning 后，在电脑荧幕上观察到RF是为一条较光滑的斜线，则..." 类型=judgement {"title":"调机过程中选择Adjust RF turning 后，在电脑荧幕上观察到RF是为一条较光滑的斜线，则可以点击Save Results。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"调机过程中选择Adjust RF turning 后，在电脑荧幕上观察到RF是为一条较光滑的斜线，则可以点击Save Results。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"调机过程中选择Adjust RF turning 后，在电脑荧幕上观察到RF是为一条较光滑的斜线，则可以点击Save Results。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:55:57 [INFO] 收到题目请求: 调机过程中选择Adjust RF turning 后，在电脑荧幕上观察到RF是为一条较光滑的斜线，则... {"type":"judgement","hasOptions":true}
+2026-04-12 23:56:05 [INFO] 题目请求处理成功 {"title":"调机过程中选择Adjust RF turning 后，在电脑荧幕上观察到RF是为一条较光滑的斜线，则可以点击Save Results。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"8326ms","status":"success"}
+2026-04-12 23:56:05 [INFO] 答案生成成功 (8326ms): B. 错...
+2026-04-12 23:56:11 [INFO] API请求: 题目="真空度检查（如果仪器带真空规），在Diagnostic页面选择Ion Gauge，其读数在50个μT..." 类型=judgement {"title":"真空度检查（如果仪器带真空规），在Diagnostic页面选择Ion Gauge，其读数在50个μTorr以下时，才允许做Air/Water Check。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"真空度检查（如果仪器带真空规），在Diagnostic页面选择Ion Gauge，其读数在50个μTorr以下时，才允许做Air/Water Check。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"真空度检查（如果仪器带真空规），在Diagnostic页面选择Ion Gauge，其读数在50个μTorr以下时，才允许做Air/Water Check。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:56:11 [INFO] 收到题目请求: 真空度检查（如果仪器带真空规），在Diagnostic页面选择Ion Gauge，其读数在50个μT... {"type":"judgement","hasOptions":true}
+2026-04-12 23:56:19 [INFO] 题目请求处理成功 {"title":"真空度检查（如果仪器带真空规），在Diagnostic页面选择Ion Gauge，其读数在50个μTorr以下时，才允许做Air/Water Check。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"8382ms","status":"success"}
+2026-04-12 23:56:19 [INFO] 答案生成成功 (8382ms): A.
+对...
+2026-04-12 23:56:24 [INFO] API请求: 题目="调机过程中选择Adjust RF turning后，在电脑荧幕上应该观察到RF为一条较光滑的水平线。..." 类型=judgement {"title":"调机过程中选择Adjust RF turning后，在电脑荧幕上应该观察到RF为一条较光滑的水平线。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"调机过程中选择Adjust RF turning后，在电脑荧幕上应该观察到RF为一条较光滑的水平线。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"调机过程中选择Adjust RF turning后，在电脑荧幕上应该观察到RF为一条较光滑的水平线。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:56:24 [INFO] 收到题目请求: 调机过程中选择Adjust RF turning后，在电脑荧幕上应该观察到RF为一条较光滑的水平线。... {"type":"judgement","hasOptions":true}
+2026-04-12 23:56:37 [INFO] 题目请求处理成功 {"title":"调机过程中选择Adjust RF turning后，在电脑荧幕上应该观察到RF为一条较光滑的水平线。","type":"judgement","hasOptions":true,"answerLength":1,"duration":"12672ms","status":"success"}
+2026-04-12 23:56:37 [INFO] 答案生成成功 (12672ms): B...
+2026-04-12 23:56:41 [INFO] API请求: 题目="调机过程中Trap，Manifold 及Xferline 的温度，当实际值与设定值的差距在10 度以..." 类型=judgement {"title":"调机过程中Trap，Manifold 及Xferline 的温度，当实际值与设定值的差距在10 度以内时才允许Tune。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"调机过程中Trap，Manifold 及Xferline 的温度，当实际值与设定值的差距在10 度以内时才允许Tune。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"调机过程中Trap，Manifold 及Xferline 的温度，当实际值与设定值的差距在10 度以内时才允许Tune。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:56:41 [INFO] 收到题目请求: 调机过程中Trap，Manifold 及Xferline 的温度，当实际值与设定值的差距在10 度以... {"type":"judgement","hasOptions":true}
+2026-04-12 23:56:52 [INFO] 题目请求处理成功 {"title":"调机过程中Trap，Manifold 及Xferline 的温度，当实际值与设定值的差距在10 度以内时才允许Tune。","type":"judgement","hasOptions":true,"answerLength":1,"duration":"10270ms","status":"success"}
+2026-04-12 23:56:52 [INFO] 答案生成成功 (10270ms): A...
+2026-04-12 23:56:56 [INFO] API请求: 题目="调谐时灯丝是亮的，运行时灯丝不亮，无溶剂延迟窗口，则可以检查质谱和GC背后remote连线是否妥善连..." 类型=judgement {"title":"调谐时灯丝是亮的，运行时灯丝不亮，无溶剂延迟窗口，则可以检查质谱和GC背后remote连线是否妥善连接。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"调谐时灯丝是亮的，运行时灯丝不亮，无溶剂延迟窗口，则可以检查质谱和GC背后remote连线是否妥善连接。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"调谐时灯丝是亮的，运行时灯丝不亮，无溶剂延迟窗口，则可以检查质谱和GC背后remote连线是否妥善连接。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-12 23:56:56 [INFO] 收到题目请求: 调谐时灯丝是亮的，运行时灯丝不亮，无溶剂延迟窗口，则可以检查质谱和GC背后remote连线是否妥善连... {"type":"judgement","hasOptions":true}
+2026-04-12 23:57:08 [INFO] 题目请求处理成功 {"title":"调谐时灯丝是亮的，运行时灯丝不亮，无溶剂延迟窗口，则可以检查质谱和GC背后remote连线是否妥善连接。","type":"judgement","hasOptions":true,"answerLength":1,"duration":"11420ms","status":"success"}
+2026-04-12 23:57:08 [INFO] 答案生成成功 (11420ms): A...
+2026-04-12 23:59:46 [INFO] 收到SIGINT信号，正在关闭服务器...
+2026-04-12 23:59:48 [INFO] 
+╔════════════════════════════════════════════════════════════╗
+║            OCS 答案服务器已启动                              ║
+╠════════════════════════════════════════════════════════════╣
+║  服务地址: http://127.0.0.1:3000                             ║
+║  API文档:  GET  /info                                        ║
+║  答案接口:  POST /api/answer                                 ║
+║  OCS配置:   GET  /api/ocs-config                             ║
+║  健康检查:  GET  /health                                      ║
+╠════════════════════════════════════════════════════════════╣
+║  LLM配置:   openrouter                                           ║
+║  模型:      anthropic/claude-opus-4.6                            ║
+╚════════════════════════════════════════════════════════════╝
+    
+2026-04-13 00:24:39 [INFO] API请求: 题目="紫外分光光度计进行基线校准时，应使用（ ）进行校准。..." 类型=single {"title":"紫外分光光度计进行基线校准时，应使用（ ）进行校准。","type":"single","options":"A.\n自来水\nB.\n超纯水\nC.\n溶剂\nD.\n过氧化氢","body":"{\"title\":\"紫外分光光度计进行基线校准时，应使用（ ）进行校准。\",\"type\":\"single\",\"options\":\"A.\\n自来水\\nB.\\n超纯水\\nC.\\n溶剂\\nD.\\n过氧化氢\"}","rawTextBody":"{\"title\":\"紫外分光光度计进行基线校准时，应使用（ ）进行校准。\",\"type\":\"single\",\"options\":\"A.\\n自来水\\nB.\\n超纯水\\nC.\\n溶剂\\nD.\\n过氧化氢\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-13 00:24:39 [INFO] 收到题目请求: 紫外分光光度计进行基线校准时，应使用（ ）进行校准。... {"type":"single","hasOptions":true}
+2026-04-13 00:24:41 [INFO] 题目请求处理成功 {"title":"紫外分光光度计进行基线校准时，应使用（ ）进行校准。","type":"single","hasOptions":true,"answerLength":1,"duration":"2598ms","status":"success"}
+2026-04-13 00:24:41 [INFO] 答案生成成功 (2598ms): C...
+2026-04-13 00:24:47 [INFO] API请求: 题目="紫外可见吸收光谱测量时，基线的扫描应该（ ）。..." 类型=single {"title":"紫外可见吸收光谱测量时，基线的扫描应该（ ）。","type":"single","options":"A.\n不需要基线扫描\nB.\n扫描样品前，进行基线扫描\nC.\n扫描样品后，进行基线扫描\nD.\n基线扫描与样品扫描同时进行","body":"{\"title\":\"紫外可见吸收光谱测量时，基线的扫描应该（ ）。\",\"type\":\"single\",\"options\":\"A.\\n不需要基线扫描\\nB.\\n扫描样品前，进行基线扫描\\nC.\\n扫描样品后，进行基线扫描\\nD.\\n基线扫描与样品扫描同时进行\"}","rawTextBody":"{\"title\":\"紫外可见吸收光谱测量时，基线的扫描应该（ ）。\",\"type\":\"single\",\"options\":\"A.\\n不需要基线扫描\\nB.\\n扫描样品前，进行基线扫描\\nC.\\n扫描样品后，进行基线扫描\\nD.\\n基线扫描与样品扫描同时进行\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-13 00:24:47 [INFO] 收到题目请求: 紫外可见吸收光谱测量时，基线的扫描应该（ ）。... {"type":"single","hasOptions":true}
+2026-04-13 00:24:50 [INFO] 题目请求处理成功 {"title":"紫外可见吸收光谱测量时，基线的扫描应该（ ）。","type":"single","hasOptions":true,"answerLength":1,"duration":"3554ms","status":"success"}
+2026-04-13 00:24:50 [INFO] 答案生成成功 (3554ms): B...
+2026-04-13 00:24:56 [INFO] API请求: 题目="某同学进行光度分析时，误将参比溶液的透光率调至90%而不是100%，在此条件下，测得有色溶液的透射率..." 类型=single {"title":"某同学进行光度分析时，误将参比溶液的透光率调至90%而不是100%，在此条件下，测得有色溶液的透射率为35%，则该有色溶液的正确透射率（ ）。","type":"single","options":"A.\n0.36\nB.\n0.345\nC.\n0.389\nD.\n0.321","body":"{\"title\":\"某同学进行光度分析时，误将参比溶液的透光率调至90%而不是100%，在此条件下，测得有色溶液的透射率为35%，则该有色溶液的正确透射率（ ）。\",\"type\":\"single\",\"options\":\"A.\\n0.36\\nB.\\n0.345\\nC.\\n0.389\\nD.\\n0.321\"}","rawTextBody":"{\"title\":\"某同学进行光度分析时，误将参比溶液的透光率调至90%而不是100%，在此条件下，测得有色溶液的透射率为35%，则该有色溶液的正确透射率（ ）。\",\"type\":\"single\",\"options\":\"A.\\n0.36\\nB.\\n0.345\\nC.\\n0.389\\nD.\\n0.321\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-13 00:24:56 [INFO] 收到题目请求: 某同学进行光度分析时，误将参比溶液的透光率调至90%而不是100%，在此条件下，测得有色溶液的透射率... {"type":"single","hasOptions":true}
+2026-04-13 00:24:59 [INFO] 题目请求处理成功 {"title":"某同学进行光度分析时，误将参比溶液的透光率调至90%而不是100%，在此条件下，测得有色溶液的透射率为35%，则该有色溶液的正确透射率（ ）。","type":"single","hasOptions":true,"answerLength":1,"duration":"2939ms","status":"success"}
+2026-04-13 00:24:59 [INFO] 答案生成成功 (2939ms): C...
+2026-04-13 00:25:04 [INFO] API请求: 题目="通常情况下，紫外光区与可见光区的波长范围分别是多少？（）..." 类型=single {"title":"通常情况下，紫外光区与可见光区的波长范围分别是多少？（）","type":"single","options":"A.\n100-300 nm; 400-800 nm\nB.\n200-400 nm; 400-800 nm\nC.\n200-400 nm; 400-600 nm\nD.\n100-400 nm; 400-600 nm","body":"{\"title\":\"通常情况下，紫外光区与可见光区的波长范围分别是多少？（）\",\"type\":\"single\",\"options\":\"A.\\n100-300 nm; 400-800 nm\\nB.\\n200-400 nm; 400-800 nm\\nC.\\n200-400 nm; 400-600 nm\\nD.\\n100-400 nm; 400-600 nm\"}","rawTextBody":"{\"title\":\"通常情况下，紫外光区与可见光区的波长范围分别是多少？（）\",\"type\":\"single\",\"options\":\"A.\\n100-300 nm; 400-800 nm\\nB.\\n200-400 nm; 400-800 nm\\nC.\\n200-400 nm; 400-600 nm\\nD.\\n100-400 nm; 400-600 nm\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-13 00:25:04 [INFO] 收到题目请求: 通常情况下，紫外光区与可见光区的波长范围分别是多少？（）... {"type":"single","hasOptions":true}
+2026-04-13 00:25:12 [INFO] 题目请求处理成功 {"title":"通常情况下，紫外光区与可见光区的波长范围分别是多少？（）","type":"single","hasOptions":true,"answerLength":1,"duration":"7438ms","status":"success"}
+2026-04-13 00:25:12 [INFO] 答案生成成功 (7438ms): B...
+2026-04-13 00:25:17 [INFO] API请求: 题目="利用紫外分光光度计进行定性分析时，若物质浓度太浓，可以向比色皿中直接加入相应溶剂进行稀释，再进行测量..." 类型=judgement {"title":"利用紫外分光光度计进行定性分析时，若物质浓度太浓，可以向比色皿中直接加入相应溶剂进行稀释，再进行测量。","type":"judgement","options":"A.\n对\nB.\n错","body":"{\"title\":\"利用紫外分光光度计进行定性分析时，若物质浓度太浓，可以向比色皿中直接加入相应溶剂进行稀释，再进行测量。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","rawTextBody":"{\"title\":\"利用紫外分光光度计进行定性分析时，若物质浓度太浓，可以向比色皿中直接加入相应溶剂进行稀释，再进行测量。\",\"type\":\"judgement\",\"options\":\"A.\\n对\\nB.\\n错\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-13 00:25:17 [INFO] 收到题目请求: 利用紫外分光光度计进行定性分析时，若物质浓度太浓，可以向比色皿中直接加入相应溶剂进行稀释，再进行测量... {"type":"judgement","hasOptions":true}
+2026-04-13 00:25:20 [INFO] 题目请求处理成功 {"title":"利用紫外分光光度计进行定性分析时，若物质浓度太浓，可以向比色皿中直接加入相应溶剂进行稀释，再进行测量。","type":"judgement","hasOptions":true,"answerLength":4,"duration":"2602ms","status":"success"}
+2026-04-13 00:25:20 [INFO] 答案生成成功 (2602ms): B. 错...
+2026-04-13 00:25:25 [INFO] API请求: 题目="紫外分光光度计测定350 nm以下波长时通常选用（ ）比色皿。..." 类型=single {"title":"紫外分光光度计测定350 nm以下波长时通常选用（ ）比色皿。","type":"single","options":"A.\n石英\nB.\n玻璃\nC.\n陶瓷\nD.\n水晶","body":"{\"title\":\"紫外分光光度计测定350 nm以下波长时通常选用（ ）比色皿。\",\"type\":\"single\",\"options\":\"A.\\n石英\\nB.\\n玻璃\\nC.\\n陶瓷\\nD.\\n水晶\"}","rawTextBody":"{\"title\":\"紫外分光光度计测定350 nm以下波长时通常选用（ ）比色皿。\",\"type\":\"single\",\"options\":\"A.\\n石英\\nB.\\n玻璃\\nC.\\n陶瓷\\nD.\\n水晶\"}","query":{},"contentType":"text/plain;charset=UTF-8"}
+2026-04-13 00:25:25 [INFO] 收到题目请求: 紫外分光光度计测定350 nm以下波长时通常选用（ ）比色皿。... {"type":"single","hasOptions":true}
+2026-04-13 00:25:27 [INFO] 题目请求处理成功 {"title":"紫外分光光度计测定350 nm以下波长时通常选用（ ）比色皿。","type":"single","hasOptions":true,"answerLength":1,"duration":"2412ms","status":"success"}
+2026-04-13 00:25:27 [INFO] 答案生成成功 (2412ms): A...
+2026-04-13 00:28:09 [INFO] 收到SIGINT信号，正在关闭服务器...
+2026-04-13 00:31:49 [INFO] 
+╔════════════════════════════════════════════════════════════╗
+║            OCS 答案服务器已启动                              ║
+╠════════════════════════════════════════════════════════════╣
+║  服务地址: http://127.0.0.1:3000                             ║
+║  API文档:  GET  /info                                        ║
+║  答案接口:  POST /api/answer                                 ║
+║  OCS配置:   GET  /api/ocs-config                             ║
+║  健康检查:  GET  /health                                      ║
+╠════════════════════════════════════════════════════════════╣
+║  LLM配置:   openrouter                                           ║
+║  模型:      anthropic/claude-opus-4.6                            ║
+╚════════════════════════════════════════════════════════════╝
+    
+2026-04-13 00:31:58 [INFO] 收到SIGINT信号，正在关闭服务器...
