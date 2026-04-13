@@ -130,7 +130,7 @@ app.get('/api/ocs-config', (req: Request, res: Response) => {
 
   const ocsConfig = {
     url: `${baseUrl}/api/answer`,
-    name: 'LLM答案服务',
+    name: 'OCS-LLM-Answer-Server',
     homepage: `${baseUrl}/info`,
     method: 'post' as const,
     contentType: 'json' as const,
